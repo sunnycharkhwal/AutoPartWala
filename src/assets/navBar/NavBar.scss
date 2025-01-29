@@ -1,0 +1,139 @@
+@use '../../scss/var';
+@use '../../scss/mixing';
+.un {
+  display: inline-block;
+}
+.un:after {
+  content: '';
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: var(--first-text-color);
+  transition: 300ms;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.navTop {
+  .MuiAppBar-root {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+  }
+}
+.NavLogo {
+  width: 145px;
+  height: 40px;
+}
+.NavPcBtn {
+  width: 71%;
+  justify-content: center;
+  align-items: center;
+}
+.NavHoverBtn {
+  margin-right: 3rem;
+  .rs-dropdown-menu {
+    width: 100%;
+    padding: 8px;
+    // padding-top: 10px;
+    .rs-dropdown-item {
+      border-radius: 6px;
+      &:hover {
+        background-color: var(--hover-color);
+      }
+      .rs-dropdown-item-content {
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: capitalize;
+      }
+    }
+  }
+  button {
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins';
+    padding: 0;
+    padding-right: 0 !important;
+    background-color: transparent;
+    color: var(--first-text-color);
+    margin-top: 23px;
+    svg {
+      display: none;
+    }
+
+    &:focus {
+      background-color: transparent !important;
+      color: var(--first-text-color);
+      outline: none;
+    }
+    &:hover {
+      color: var(--first-text-color);
+      background-color: transparent !important;
+    }
+  }
+  .un:hover:after {
+    width: 100%;
+  }
+}
+.NavFreeBtn {
+  background-color: var(--btn-bg-color) !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-size: 17px !important;
+}
+.NavLoginBtn {
+  color: var(--first-text-color);
+  font-size: 20px;
+  margin-left: 2rem;
+  //   background-color: var(--hover-color);
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: var(--hover-color);
+  }
+}
+
+@media (max-width: 576px) {
+  .NavLoginBtn {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .NavLoginBtn {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .NavLoginBtn {
+    display: flex;
+  }
+  .NavHoverBtn {
+    margin-right: 11px;
+    button {
+      font-size: 15px;
+    }
+  }
+  .NavPcBtn {
+    width: 60%;
+  }
+}
+@media (min-width: 1440px) {
+  .NavLoginBtn {
+    display: flex;
+  }
+  .NavHoverBtn {
+    margin-right: 3rem;
+    button {
+      font-size: 16px;
+    }
+  }
+  .NavPcBtn {
+    width: 71%;
+  }
+}
