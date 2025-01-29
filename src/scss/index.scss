@@ -138,3 +138,54 @@ body {
     }
   }
 }
+.BottomNavTop_Div {
+  display: flex;
+  padding: 10px 16px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.midNevLink {
+  .rs-btn {
+    padding: 8px 16px !important;
+    background-color: transparent;
+    color: var(--first-text-color);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+    &:hover {
+      background-color: transparent;
+      color: var(--first-text-color);
+    }
+    &:focus {
+      background-color: transparent;
+      color: var(--first-text-color);
+      outline: none;
+    }
+    svg {
+      display: none;
+    }
+  }
+}
+.NavLoginBtn_div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  p {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: var(--first-text-color);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+  .NavLoginBtn {
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}

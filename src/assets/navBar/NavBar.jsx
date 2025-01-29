@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import {
   AppBar,
+  Badge,
   Box,
   Button,
   CssBaseline,
@@ -20,6 +21,7 @@ import {FaRegUser} from 'react-icons/fa';
 import {styled} from '@mui/material/styles';
 import {TopNavBar} from './TopNavBar';
 import {BottomNav} from './BottomNav';
+import {FiShoppingCart} from 'react-icons/fi';
 
 //
 const drawerWidth = 240;
@@ -42,14 +44,45 @@ export const DrawerAppBar = ({window}) => {
 
   const container = window ? () => window().document.body : undefined;
 
-  const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{textAlign: 'center'}}>
-      <NavLink to="/" className="mb-5 text-white">
-        home
-      </NavLink>
-    </Box>
-  );
-
+  const NavLinkDiv = () => {
+    return (
+      <>
+        {midNev.map((val, i) => (
+          <Dropdown
+            key={i}
+            title={<span>{val.title}</span>}
+            className="midNevLink"
+            onClick={() => navigate(val.link)}></Dropdown>
+        ))}
+      </>
+    );
+  };
+  const midNev = [
+    {
+      title: 'Wholesale prices',
+      link: '/login',
+    },
+    {
+      title: 'About us',
+      link: '/',
+    },
+    {
+      title: 'Returns & Exchange',
+      link: '/',
+    },
+    {
+      title: 'Order tracking',
+      link: '/',
+    },
+    {
+      title: 'FAQs',
+      link: '/',
+    },
+    {
+      title: 'Blogs',
+      link: '/',
+    },
+  ];
   return (
     <>
       <Box sx={{display: 'flex'}} className="navTop">
@@ -57,23 +90,24 @@ export const DrawerAppBar = ({window}) => {
         <AppBar component="nav">
           <TopNavBar />
           <Toolbar>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              onClick={handleDrawerToggle}
+              sx={{display: {md: 'none'}}}
+              className="text-black">
+              <MenuIcon />
+            </IconButton>
             <NavLink to="/" className="text-white">
               <img className="NavLogo" src={Logo} alt="logo" />
             </NavLink>
             <Box sx={{display: {xs: 'none', md: 'flex'}}} className="NavPcBtn">
-              <Dropdown
-                title={<span>Event management</span>}
-                className="NavHoverBtn"
-                onClick={() => navigate('/')}></Dropdown>
+              <NavLinkDiv />
             </Box>
-            <Box className="d-flex  justify-content-end align-items-center">
-              <Button
-                sx={{display: {xs: 'none', md: 'block'}}}
-                variant="contained"
-                className="NavFreeBtn"
-                onClick={() => navigate('/login')}>
-                Try for Free
-              </Button>
+            <div className=" d-flex align-items-center">
+              <div>
+                <input type="text" className="w-100" />
+              </div>
               <BootstrapTooltip
                 title="Login"
                 onClick={() => navigate('/login')}>
@@ -81,16 +115,21 @@ export const DrawerAppBar = ({window}) => {
                   <FaRegUser />
                 </span>
               </BootstrapTooltip>
-
-              <IconButton
-                color="inherit"
-                aria-label="open drawer"
-                onClick={handleDrawerToggle}
-                sx={{display: {md: 'none'}}}
-                className="text-black">
-                <MenuIcon />
-              </IconButton>
-            </Box>
+              <BootstrapTooltip title="Cart" onClick={() => navigate('/login')}>
+                <div className="NavLoginBtn_div">
+                  <span className="NavLoginBtn">
+                    <Badge
+                      color="secondary"
+                      badgeContent={0}
+                      max={999}
+                      showZero>
+                      <FiShoppingCart color="action" />
+                    </Badge>
+                  </span>
+                  <p>Cart</p>
+                </div>
+              </BootstrapTooltip>
+            </div>
           </Toolbar>
           <BottomNav />
         </AppBar>
@@ -99,13 +138,13 @@ export const DrawerAppBar = ({window}) => {
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
-          anchor="right"
+          anchor="left"
           ModalProps={{keepMounted: true}}
           sx={{
             display: {xs: 'block', md: 'none'},
             '& .MuiDrawer-paper': {boxSizing: 'border-box', width: drawerWidth},
           }}>
-          {drawer}
+          <NavLinkDiv />
         </Drawer>
       </Box>
     </>

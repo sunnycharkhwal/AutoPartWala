@@ -1,12 +1,35 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Avatar from '@mui/material/Avatar';
+import {Accordion, Placeholder} from 'rsuite';
 export const Home = () => {
   return (
     <>
       <h1>home</h1>
       <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />
       <Button variant="primary">Primary</Button>
+      <Accordion>
+        <Accordion.Panel header="Accordion Panel 1" eventKey={1}>
+          1
+          <Accordion>
+            <Accordion.Panel header="Accordion Panel 5" eventKey={5}>
+              2
+            </Accordion.Panel>
+            <Accordion.Panel header="Accordion Panel 6" eventKey={6}>
+              <Placeholder.Paragraph />
+            </Accordion.Panel>
+            <Accordion.Panel header="Accordion Panel 7" eventKey={7}>
+              <Placeholder.Paragraph />
+            </Accordion.Panel>
+          </Accordion>
+        </Accordion.Panel>
+        <Accordion.Panel header="Accordion Panel 2" eventKey={2}>
+          <Placeholder.Paragraph />
+        </Accordion.Panel>
+        <Accordion.Panel header="Accordion Panel 3" eventKey={3}>
+          <Placeholder.Paragraph />
+        </Accordion.Panel>
+      </Accordion>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique unde
         fugit veniam eius, perspiciatis sunt? Corporis qui ducimus quibusdam,
