@@ -3,6 +3,18 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .TopNav_barDiv {
+    padding-left: 10px;
+    padding-right: 10px;
+    span {
+      img {
+        padding-right: 0px;
+        margin-right: 5px;
+      }
+      align-items: baseline;
+      text-align: center;
+    }
+  }
 }
 @media (min-width: 768px) {
 }
