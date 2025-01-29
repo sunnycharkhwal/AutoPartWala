@@ -3,7 +3,7 @@ import {DrawerAppBar} from './assets/navBar/NavBar';
 export const App = () => {
   return (
     <>
-      <div className="mt-3">
+      <div style={{marginTop: '7rem'}}>
         <DrawerAppBar />
         <Outlet />
       </div>
