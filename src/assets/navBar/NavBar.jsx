@@ -18,6 +18,8 @@ import './NavBar.scss';
 import Logo from '../../images/logo.png';
 import {FaRegUser} from 'react-icons/fa';
 import {styled} from '@mui/material/styles';
+import Gift from '../../images/gift.svg';
+
 //
 const drawerWidth = 240;
 
@@ -52,8 +54,11 @@ export const DrawerAppBar = ({window}) => {
       <Box sx={{display: 'flex'}} className="navTop">
         <CssBaseline />
         <AppBar component="nav">
-          <div>
-            <span>Grab the deal. Get 50% off on your first order.</span>
+          <div className="TopNav_barDiv">
+            <span>
+              <img src={Gift} alt="Gift" />
+              Grab the deal. Get 50% off on your first order.
+            </span>
           </div>
           <Toolbar>
             <NavLink to="/" className="text-white">
