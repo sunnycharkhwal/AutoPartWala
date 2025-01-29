@@ -19,6 +19,7 @@ import Logo from '../../images/logo.png';
 import {FaRegUser} from 'react-icons/fa';
 import {styled} from '@mui/material/styles';
 import {TopNavBar} from './TopNavBar';
+import {BottomNav} from './BottomNav';
 
 //
 const drawerWidth = 240;
@@ -61,32 +62,7 @@ export const DrawerAppBar = ({window}) => {
             </NavLink>
             <Box sx={{display: {xs: 'none', md: 'flex'}}} className="NavPcBtn">
               <Dropdown
-                title={<span className="un">Academy management </span>}
-                trigger="hover"
-                className="NavHoverBtn">
-                <Dropdown.Item onClick={() => navigate('/')}>
-                  overview
-                </Dropdown.Item>
-                <Dropdown.Item onClick={() => navigate('/')}>
-                  features
-                </Dropdown.Item>
-                <Dropdown.Item onClick={() => navigate('/')}>
-                  pricing
-                </Dropdown.Item>
-              </Dropdown>
-              <Dropdown
-                title={<span className="un">Booking management</span>}
-                trigger="hover"
-                className="NavHoverBtn">
-                <Dropdown.Item onClick={() => navigate('/')}>
-                  overview
-                </Dropdown.Item>
-                <Dropdown.Item onClick={() => navigate('/')}>
-                  pricing
-                </Dropdown.Item>
-              </Dropdown>
-              <Dropdown
-                title={<span className="un">Event management</span>}
+                title={<span>Event management</span>}
                 className="NavHoverBtn"
                 onClick={() => navigate('/')}></Dropdown>
             </Box>
@@ -116,6 +92,7 @@ export const DrawerAppBar = ({window}) => {
               </IconButton>
             </Box>
           </Toolbar>
+          <BottomNav />
         </AppBar>
         <Drawer
           container={container}

@@ -66,3 +66,75 @@ body {
     line-height: 20px;
   }
 }
+// top baar end
+// Bottom Nav
+.BottomNavDiv {
+  .NavHoverBtn {
+    padding-right: 0;
+    svg {
+      display: none;
+    }
+  }
+  .rs-btn {
+    padding: 8px 16px !important;
+    background-color: transparent;
+    color: var(--first-text-color);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+    &:hover {
+      background-color: transparent;
+      color: var(--first-text-color);
+    }
+    &:focus {
+      background-color: transparent;
+      color: var(--first-text-color);
+      outline: none;
+    }
+  }
+  .rs-dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .rs-dropdown-item {
+    padding: 0;
+  }
+  .rs-dropdown-item {
+    background-color: transparent;
+    color: var(--second-text-colo);
+    background-color: transparent;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    &:hover {
+      background-color: transparent;
+      color: var(--first-text-color);
+    }
+  }
+  .rs-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    color: var(--second-text-color);
+    &:hover {
+      color: var(--first-text-color);
+    }
+  }
+  .BottomNav_DropdownDiv {
+    display: flex;
+    .BottomNav_DropdownDivInner {
+      padding: 16px;
+      width: 200px;
+      .BottomNav_DropdownDivInnerTitle {
+        color: var(--first-text-color);
+        font-weight: 500;
+        text-transform: capitalize;
+      }
+    }
+  }
+}
