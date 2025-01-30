@@ -127,9 +127,13 @@ body {
   }
   .BottomNav_DropdownDiv {
     display: flex;
+
     .BottomNav_DropdownDivInner {
       padding: 16px;
       width: 200px;
+      overflow: scroll;
+      max-height: 17rem;
+      min-height: auto;
       .BottomNav_DropdownDivInnerTitle {
         color: var(--first-text-color);
         font-weight: 500;
@@ -187,5 +191,66 @@ body {
     &:hover {
       background-color: transparent;
     }
+  }
+}
+.NavSearch_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d0d7de;
+  height: 40px;
+  padding: 0px 8px;
+  border-radius: 6px;
+  margin-right: 8px;
+  span {
+    padding: 5px;
+    margin-right: 8px;
+    color: var(--first-text-color);
+    svg {
+      font-size: 18px;
+    }
+  }
+  input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: var(--first-text-color);
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.navBtn_div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.BottomNavMobile_div {
+  .rs-panel-collapsible > .rs-panel-header {
+    padding: 0;
+  }
+  .rs-panel-body,
+  .rs-panel-header {
+    padding: 0;
+  }
+  .BottomNavMobile_divTitle {
+    width: 100%;
+    text-align: left;
+    font-weight: 400;
+  }
+  .rs-panel-btn {
+    padding-left: 16px;
+    &:focus {
+      background-color: transparent !important;
+    }
+  }
+  .outerDiv {
+    svg {
+      display: none !important;
+    }
+  }
+  .BottomNavTop_Div {
+    flex-direction: column;
   }
 }

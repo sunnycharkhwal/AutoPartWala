@@ -20,8 +20,9 @@ import Logo from '../../images/logo.png';
 import {FaRegUser} from 'react-icons/fa';
 import {styled} from '@mui/material/styles';
 import {TopNavBar} from './TopNavBar';
-import {BottomNav} from './BottomNav';
+import {BottomNav, BottomNavMobile} from './BottomNav';
 import {FiShoppingCart} from 'react-icons/fi';
+import {IoIosSearch} from 'react-icons/io';
 
 //
 const drawerWidth = 240;
@@ -94,19 +95,22 @@ export const DrawerAppBar = ({window}) => {
               color="inherit"
               aria-label="open drawer"
               onClick={handleDrawerToggle}
-              sx={{display: {md: 'none'}}}
+              sx={{display: {lg: 'none'}}}
               className="text-black">
               <MenuIcon />
             </IconButton>
             <NavLink to="/" className="text-white">
               <img className="NavLogo" src={Logo} alt="logo" />
             </NavLink>
-            <Box sx={{display: {xs: 'none', md: 'flex'}}} className="NavPcBtn">
+            <Box sx={{display: {xs: 'none', lg: 'flex'}}} className="NavPcBtn">
               <NavLinkDiv />
             </Box>
-            <div className=" d-flex align-items-center">
-              <div>
-                <input type="text" className="w-100" />
+            <div className=" navBtn_div ">
+              <div className="NavSearch_div d-none d-xxl-flex d-xl-flex d-lg-flex d-md-flex">
+                <span>
+                  <IoIosSearch />
+                </span>
+                <input type="text" />
               </div>
               <BootstrapTooltip
                 title="Login"
@@ -131,6 +135,12 @@ export const DrawerAppBar = ({window}) => {
               </BootstrapTooltip>
             </div>
           </Toolbar>
+          <div className="NavSearch_div d-flex d-xxl-none d-xl-none d-lg-none d-md-none">
+            <span>
+              <IoIosSearch />
+            </span>
+            <input type="text" />
+          </div>
           <BottomNav />
         </AppBar>
         <Drawer
@@ -141,10 +151,11 @@ export const DrawerAppBar = ({window}) => {
           anchor="left"
           ModalProps={{keepMounted: true}}
           sx={{
-            display: {xs: 'block', md: 'none'},
+            display: {xs: 'block', lg: 'none'},
             '& .MuiDrawer-paper': {boxSizing: 'border-box', width: drawerWidth},
           }}>
           <NavLinkDiv />
+          <BottomNavMobile />
         </Drawer>
       </Box>
     </>

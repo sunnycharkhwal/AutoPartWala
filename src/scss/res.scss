@@ -3,9 +3,17 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .NavLogo {
+    width: 125px;
+    height: 20px;
+  }
+  .NavSearch_div {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .TopNav_barDiv {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
     span {
       img {
         padding-right: 0px;

@@ -15,6 +15,7 @@
   width: 71%;
   justify-content: center;
   align-items: center;
+  margin-left: 6rem;
 }
 
 .NavFreeBtn {
@@ -47,7 +48,8 @@
 }
 @media (min-width: 1024px) {
   .NavPcBtn {
-    width: 60%;
+    width: 55%;
+    margin-left: 0;
   }
 }
 @media (min-width: 1440px) {
@@ -57,5 +59,6 @@
 
   .NavPcBtn {
     width: 71%;
+    margin-left: 6rem;
   }
 }
