@@ -293,14 +293,38 @@ export const BottomNavData = [
   {
     activeClass: '',
     titleLink: '/login',
-    title: 'hero',
+    title: 'Suzuki',
     subMenu: [
       {
         background: '',
         subMenuTitle: 'bike',
         Item: [
           {
-            itemName: 'Xtreme',
+            itemName: 'Suzuki Hayate',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Suzuki GS 150R',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Suzuki Gixxer SF',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Suzuki Gixxer SF 250',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Suzuki Gixxer',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Suzuki Gixxer 250',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Suzuki V-Strom SX',
             itemLink: '/login',
           },
         ],
@@ -310,11 +334,313 @@ export const BottomNavData = [
         subMenuTitle: 'Scooter',
         Item: [
           {
-            itemName: 'Hero',
+            itemName: 'Suzuki Access 125',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Suzuki Burgman Street 125',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Suzuki Avenis 125',
             itemLink: '/login',
           },
         ],
       },
     ],
+  },
+  {
+    activeClass: '',
+    titleLink: '/login',
+    title: 'Bajaj',
+    subMenu: [
+      {
+        background: '',
+        subMenuTitle: 'bike',
+        Item: [
+          {
+            itemName: 'Bajaj Pulsar 125',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar 150',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar 180',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar 220F',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar RS 200',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar NS 200',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar NS 160',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar NS 125',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar N150',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar N160',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar N250',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar F250',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar P150',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Pulsar NS400Z',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Platina 100',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Platina 110',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Platina 125',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj CT 100',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj CT 110',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj CT 125X',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Avenger Street 160',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Avenger Cruise 220',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Avenger Street 220',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Dominar 400',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Bajaj Dominar 250',
+            itemLink: '/login',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    activeClass: '',
+    titleLink: '/login',
+    title: 'Royal Enfield',
+    subMenu: [
+      {
+        background: '',
+        subMenuTitle: 'bike',
+        Item: [
+          {
+            itemName: 'Royal Enfield Hunter 350',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Classic 350',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Bullet 350',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Meteor 350',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Thunderbird 350',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Electra 350',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Standard 350',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Himalayan',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Scram 411',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Interceptor 650',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Continental GT 650',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Shotgun 650',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Super Meteor 650',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Royal Enfield Himalayan 450',
+            itemLink: '/login',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    activeClass: '',
+    titleLink: '/login',
+    title: 'KTM',
+    subMenu: [
+      {
+        background: '',
+        subMenuTitle: 'bike',
+        Item: [
+          {
+            itemName: 'KTM 125 Duke',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'KTM 200 Duke',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'KTM 250 Duke',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'KTM 390 Duke',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'KTM 250 Adventure',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'KTM 390 Adventure',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'KTM 390 Adventure X',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'KTM RC 125',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'KTM RC 200',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'KTM RC 390',
+            itemLink: '/login',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    activeClass: '',
+    titleLink: '/login',
+    title: 'Mahindra',
+    subMenu: [
+      {
+        background: '',
+        subMenuTitle: 'bike',
+        Item: [
+          {
+            itemName: 'Mahindra Centuro',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Mahindra Gusto 110',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Mahindra Gusto 125',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Mahindra Mojo',
+            itemLink: '/login',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    activeClass: '',
+    titleLink: '/login',
+    title: 'Yezdi',
+    subMenu: [
+      {
+        background: '',
+        subMenuTitle: 'bike',
+        Item: [
+          {
+            itemName: 'Yezdi Roadster',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Yezdi Scrambler',
+            itemLink: '/login',
+          },
+          {
+            itemName: 'Yezdi Adventure',
+            itemLink: '/login',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    activeClass: 'normal',
+    titleLink: '/login',
+    title: 'EV',
   },
 ];
