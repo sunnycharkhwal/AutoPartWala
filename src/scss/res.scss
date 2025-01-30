@@ -3,6 +3,9 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .MyApp {
+    margin-top: 9rem;
+  }
   .NavLogo {
     width: 125px;
     height: 20px;
@@ -10,6 +13,7 @@
   .NavSearch_div {
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 15px;
   }
   .TopNav_barDiv {
     padding-left: 16px;
@@ -25,8 +29,17 @@
   }
 }
 @media (min-width: 768px) {
+  .MyApp {
+    margin-top: 7rem;
+  }
 }
 @media (min-width: 1024px) {
+  .MyApp {
+    margin-top: 10rem;
+  }
 }
 @media (min-width: 1440px) {
+  .MyApp {
+    margin-top: 10rem;
+  }
 }

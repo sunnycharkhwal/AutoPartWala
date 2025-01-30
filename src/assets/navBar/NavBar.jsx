@@ -23,6 +23,7 @@ import {TopNavBar} from './TopNavBar';
 import {BottomNav, BottomNavMobile} from './BottomNav';
 import {FiShoppingCart} from 'react-icons/fi';
 import {IoIosSearch} from 'react-icons/io';
+import {midNev} from '../Data';
 
 //
 const drawerWidth = 240;
@@ -58,36 +59,11 @@ export const DrawerAppBar = ({window}) => {
       </>
     );
   };
-  const midNev = [
-    {
-      title: 'Wholesale prices',
-      link: '/login',
-    },
-    {
-      title: 'About us',
-      link: '/',
-    },
-    {
-      title: 'Returns & Exchange',
-      link: '/',
-    },
-    {
-      title: 'Order tracking',
-      link: '/',
-    },
-    {
-      title: 'FAQs',
-      link: '/',
-    },
-    {
-      title: 'Blogs',
-      link: '/',
-    },
-  ];
+
   return (
     <>
       <Box sx={{display: 'flex'}} className="navTop">
-        <CssBaseline />
+        {/* <CssBaseline /> */}
         <AppBar component="nav">
           <TopNavBar />
           <Toolbar>
@@ -150,6 +126,7 @@ export const DrawerAppBar = ({window}) => {
           onClose={handleDrawerToggle}
           anchor="left"
           ModalProps={{keepMounted: true}}
+          className="mobileAppDrawer"
           sx={{
             display: {xs: 'block', lg: 'none'},
             '& .MuiDrawer-paper': {boxSizing: 'border-box', width: drawerWidth},

@@ -7,7 +7,7 @@ export const BottomNav = () => {
 
   return (
     <>
-      <div className="BottomNavTop_Div d-none d-xxl-block d-xl-block d-lg-block">
+      <div className="BottomNavTop_Div d-none d-xxl-flex d-xl-flex d-lg-flex">
         {BottomNavData.map((val, i) => (
           <div key={i} className={`BottomNavDiv ${val.activeClass}`}>
             {val.activeClass === 'normal' ? (
