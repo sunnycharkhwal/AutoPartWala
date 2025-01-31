@@ -1,5 +1,18 @@
+import HeroIcon from '../images/hero.png';
+import HondaIcon from '../images/honda.png';
+import TvsIcon from '../images/TVS.svg';
+import YamahaIcon from '../images/yamaha.svg';
+import SuzukiIcon from '../images/Suzuki.png';
+import BajajIcon from '../images/Bajaj.png';
+import ReIcon from '../images/Re.svg';
+import ktmIcon from '../images/ktm.png';
+import MahindraIcon from '../images/Mahindra.png';
+import YezdiIcon from '../images/Yezdi.png';
+// TopNavBarMessage
 export const TopNavBarMessage =
   'Grab the deal. Get 50% off on your first order.';
+// TopNavBarMessage end
+// midNev
 export const midNev = [
   {title: 'Wholesale prices', link: '/login'},
   {title: 'About us', link: '/'},
@@ -8,6 +21,8 @@ export const midNev = [
   {title: 'FAQs', link: '/'},
   {title: 'Blogs', link: '/'},
 ];
+// midNev end
+// BottomNavData
 export const BottomNavData = [
   {
     activeClass: '',
@@ -644,3 +659,48 @@ export const BottomNavData = [
     title: 'EV',
   },
 ];
+// BottomNavData end
+// BrandIconData
+export const BrandIconData = [
+  {
+    BrandIcon: HeroIcon,
+    link: '/login',
+  },
+  {
+    BrandIcon: HondaIcon,
+    link: '/login',
+  },
+  {
+    BrandIcon: TvsIcon,
+    link: '/login',
+  },
+  {
+    BrandIcon: YamahaIcon,
+    link: '/login',
+  },
+  {
+    BrandIcon: SuzukiIcon,
+    link: '/login',
+  },
+  {
+    BrandIcon: BajajIcon,
+    link: '/login',
+  },
+  {
+    BrandIcon: ReIcon,
+    link: '/login',
+  },
+  {
+    BrandIcon: ktmIcon,
+    link: '/login',
+  },
+  {
+    BrandIcon: MahindraIcon,
+    link: '/login',
+  },
+  {
+    BrandIcon: YezdiIcon,
+    link: '/login',
+  },
+];
+// BrandIconData end

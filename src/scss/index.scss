@@ -147,6 +147,7 @@ body {
   padding: 10px 16px;
   flex-wrap: wrap;
   justify-content: flex-start;
+  justify-content: center;
 }
 .midNevLink {
   .rs-btn {
@@ -263,3 +264,43 @@ body {
   }
 }
 //
+// BrandsIcon
+.BrandsIcon_divTitle {
+  color: var(--first-text-color);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.BrandsIcon_div {
+  width: 118px !important;
+  height: 118px !important;
+  background: var(--bgColor_2);
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  cursor: pointer;
+  img {
+    @include bg_img;
+    width: 60px;
+    height: 60px;
+  }
+}
+.outerDiv {
+  padding: 30px 30px;
+}
+.BrandsIcon_sliderTop {
+  .slick-arrow {
+    background-color: var(--bgColor_2);
+    color: black;
+    &::before {
+      color: var(--first-text-color);
+    }
+  }
+  .slick-dots {
+    display: none !important;
+  }
+}
