@@ -9,6 +9,21 @@ import ktmIcon from '../images/ktm.png';
 import MahindraIcon from '../images/Mahindra.png';
 import YezdiIcon from '../images/Yezdi.png';
 // TopNavBarMessage
+// EngineFuelData img
+import EF1 from '../images/Ef1.png';
+import EF2 from '../images/Ef2.png';
+import EF3 from '../images/Ef3.png';
+import EF4 from '../images/Ef4.png';
+import EF5 from '../images/Ef5.png';
+// EngineFuelData img end
+// ElectricalData img
+import ec1 from '../images/ec1.png';
+import ec2 from '../images/ec2.png';
+import ec3 from '../images/ec3.png';
+import ec4 from '../images/ec4.png';
+import ec5 from '../images/ec5.png';
+// ElectricalData img end
+
 export const TopNavBarMessage =
   'Grab the deal. Get 50% off on your first order.';
 // TopNavBarMessage end
@@ -704,3 +719,59 @@ export const BrandIconData = [
   },
 ];
 // BrandIconData end
+// EngineFuelData
+export const EngineFuelData = [
+  {
+    img: EF1,
+    title: 'Carburetor',
+  },
+  {
+    img: EF2,
+    title: 'Carburetor repair kit',
+  },
+  {
+    img: EF3,
+    title: 'Connecting Road Kit',
+  },
+  {
+    img: EF4,
+    title: 'Crank Shaft',
+  },
+  {
+    img: EF5,
+    title: 'Engine Valve Set',
+  },
+  {
+    img: EF5,
+    title: 'Engine Valve Set',
+  },
+];
+// EngineFuelData end
+//ElectricalData
+export const ElectricalData = [
+  {
+    img: ec1,
+    title: 'Dominar 250',
+  },
+  {
+    img: ec2,
+    title: 'Gear Pinion set',
+  },
+  {
+    img: ec3,
+    title: 'Starter oil Plate assembly',
+  },
+  {
+    img: ec4,
+    title: 'Speedometer',
+  },
+  {
+    img: ec5,
+    title: 'Fuel pump',
+  },
+  {
+    img: ec2,
+    title: 'Gear Pinion set',
+  },
+];
+// ElectricalData end

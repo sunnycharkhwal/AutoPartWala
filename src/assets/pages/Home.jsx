@@ -1,11 +1,25 @@
 import React from 'react';
-import {BrandsSlider} from '../component/BrandsSlider';
+import {
+  BrandsSlider,
+  Carburetor,
+  Electrical,
+  EngineFuel,
+} from '../component/HomePage';
 
 export const Home = () => {
   return (
     <>
       <BrandsSlider />
 
+      <div className="outerDiv">
+        <EngineFuel />
+      </div>
+      <div className="outerDiv">
+        <Electrical />
+      </div>
+      <div className="outerDiv">
+        <Carburetor />
+      </div>
       <footer className="bg-body-tertiary text-center">
         <div className="container p-4">
           <section className="mb-4">

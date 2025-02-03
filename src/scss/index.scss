@@ -303,4 +303,53 @@ body {
   .slick-dots {
     display: none !important;
   }
+  .slick-next {
+    margin-right: 10px;
+    z-index: 1;
+  }
+  .slick-prev {
+    margin-left: 10px;
+    z-index: 1;
+  }
+}
+// EngineFuel
+
+.EngineFuel_title {
+  margin-bottom: 24px;
+  position: relative;
+  h3 {
+    color: var(--first-text-color);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  a {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    color: var(--first-text-color);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+.EngineFuel_card {
+  width: 252px !important;
+  img {
+    width: 252px !important;
+    height: 252px !important;
+    @include bg_img;
+    margin-bottom: 8px;
+  }
+  p {
+    color: var(--first-text-color);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+  }
 }

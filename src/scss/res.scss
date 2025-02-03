@@ -3,6 +3,16 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .BrandsIcon_sliderTop {
+    text-align: center;
+  }
+  .EngineFuel_card {
+    width: 200px !important;
+    img {
+      width: 200px !important;
+      height: 200px !important;
+    }
+  }
   .MyApp {
     margin-top: 9rem;
   }
