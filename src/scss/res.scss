@@ -3,6 +3,12 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .HomePageCarousel_div {
+    .slideImg {
+      height: 24rem;
+    }
+  }
+
   .BrandsIcon_sliderTop {
     text-align: center;
   }

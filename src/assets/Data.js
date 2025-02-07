@@ -23,6 +23,14 @@ import ec3 from '../images/ec3.png';
 import ec4 from '../images/ec4.png';
 import ec5 from '../images/ec5.png';
 // ElectricalData img end
+// CarouselData
+import Slide1 from '../images/s1.webp';
+import Slide2 from '../images/s2.webp';
+import Slide3 from '../images/s3.webp';
+import SlideMobile1 from '../images/s1m.webp';
+import SlideMobile2 from '../images/s2m.webp';
+import SlideMobile3 from '../images/s3m.webp';
+// CarouselData end
 
 export const TopNavBarMessage =
   'Grab the deal. Get 50% off on your first order.';
@@ -775,3 +783,25 @@ export const ElectricalData = [
   },
 ];
 // ElectricalData end
+// CarouselData
+export const CarouselData = [
+  {
+    desktopImg: Slide1,
+    mobileImg: SlideMobile1,
+    ImgLink: '/',
+    activeClass: '',
+  },
+  {
+    desktopImg: Slide2,
+    mobileImg: SlideMobile2,
+    ImgLink: '/',
+    activeClass: '',
+  },
+  {
+    desktopImg: Slide3,
+    mobileImg: SlideMobile3,
+    ImgLink: '/',
+    activeClass: 'normal',
+  },
+];
+// CarouselData end

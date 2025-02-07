@@ -1,10 +1,18 @@
 import React from 'react';
+import {useState, useEffect} from 'react';
 import {useNavigate} from 'react-router';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import {NavLink} from 'react-router';
-import {BrandIconData, ElectricalData, EngineFuelData} from '../Data';
+import {
+  BrandIconData,
+  CarouselData,
+  ElectricalData,
+  EngineFuelData,
+} from '../Data';
+import Carousel from 'react-bootstrap/Carousel';
+
 //
 function Arrow(props) {
   const {className, style, onClick, background} = props;
@@ -36,8 +44,6 @@ export const BrandsSlider = () => {
           infinite: false,
           slidesToShow: 7,
           slidesToScroll: 1,
-          infinite: true,
-          dots: true,
         },
       },
       {
@@ -115,8 +121,6 @@ export const EngineFuel = () => {
           infinite: false,
           slidesToShow: 4,
           slidesToScroll: 1,
-          infinite: true,
-          dots: true,
         },
       },
       {
@@ -168,7 +172,7 @@ export const EngineFuel = () => {
       <div className="slider-container BrandsIcon_sliderTop">
         <Slider {...sliderSettings}>
           {EngineFuelData.map((val, i) => (
-            <div className="EngineFuel_card">
+            <div className="EngineFuel_card" key={i}>
               <img src={val.img} alt="img" />
               <p>{val.title}</p>
             </div>
@@ -193,12 +197,9 @@ export const Electrical = () => {
       {
         breakpoint: 1024,
         settings: {
-          dots: false,
           infinite: false,
           slidesToShow: 4,
           slidesToScroll: 1,
-          infinite: true,
-          dots: true,
         },
       },
       {
@@ -250,7 +251,7 @@ export const Electrical = () => {
       <div className="slider-container BrandsIcon_sliderTop">
         <Slider {...sliderSettings}>
           {ElectricalData.map((val, i) => (
-            <div className="EngineFuel_card">
+            <div className="EngineFuel_card" key={i}>
               <img src={val.img} alt="img" />
               <p>{val.title}</p>
             </div>
@@ -278,8 +279,6 @@ export const Carburetor = () => {
           infinite: false,
           slidesToShow: 4,
           slidesToScroll: 1,
-          infinite: true,
-          dots: true,
         },
       },
       {
@@ -337,5 +336,42 @@ export const Carburetor = () => {
         </Slider>
       </div>
     </>
+  );
+};
+
+export const HomePageCarousel = () => {
+  const navigate = useNavigate();
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 425);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 425);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return (
+    <Carousel fade>
+      {CarouselData.map((val, i) => (
+        <Carousel.Item key={i} className="HomePageCarousel_div">
+          <img
+            className={`slideImg ${
+              val.activeClass === 'normal' ? 'slideImgNormal' : ''
+            }`}
+            onClick={() => navigate(val.ImgLink)}
+            src={isMobile ? val.mobileImg : val.desktopImg}
+            alt={`Slide ${i + 1}`}
+          />
+          {val.activeClass !== 'normal' && (
+            <Carousel.Caption>
+              <button
+                className="slideBtn"
+                onClick={() => navigate(val.ImgLink)}>
+                SHOP NOW
+              </button>
+            </Carousel.Caption>
+          )}
+        </Carousel.Item>
+      ))}
+    </Carousel>
   );
 };

@@ -4,13 +4,16 @@ import {
   Carburetor,
   Electrical,
   EngineFuel,
+  HomePageCarousel,
 } from '../component/HomePage';
 
 export const Home = () => {
   return (
     <>
+      <div>
+        <HomePageCarousel />
+      </div>
       <BrandsSlider />
-
       <div className="outerDiv">
         <EngineFuel />
       </div>
@@ -20,7 +23,7 @@ export const Home = () => {
       <div className="outerDiv">
         <Carburetor />
       </div>
-      <footer className="bg-body-tertiary text-center">
+      {/* <footer className="bg-body-tertiary text-center">
         <div className="container p-4">
           <section className="mb-4">
             <a
@@ -234,7 +237,7 @@ export const Home = () => {
             Demo.com
           </a>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 };
