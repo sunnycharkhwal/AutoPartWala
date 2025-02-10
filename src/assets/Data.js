@@ -31,13 +31,18 @@ import SlideMobile1 from '../images/s1m.webp';
 import SlideMobile2 from '../images/s2m.webp';
 import SlideMobile3 from '../images/s3m.webp';
 // CarouselData end
-
+//CarburetorListCardData
+import ListImg from '../images/listImg.webp';
+import ListImgHover from '../images/ListImgHover.webp';
+//CarburetorListCardData end
+//
+//
 export const TopNavBarMessage =
   'Grab the deal. Get 50% off on your first order.';
 // TopNavBarMessage end
 // midNev
 export const midNev = [
-  {title: 'Wholesale prices', link: '/login'},
+  {title: 'Wholesale prices', link: '/list-page'},
   {title: 'About us', link: '/'},
   {title: 'Returns & Exchange', link: '/'},
   {title: 'Order tracking', link: '/'},
@@ -49,7 +54,7 @@ export const midNev = [
 export const BottomNavData = [
   {
     activeClass: '',
-    titleLink: '/login',
+    titleLink: '/list-page',
     title: 'hero',
     subMenu: [
       {
@@ -58,83 +63,83 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'Xtreme 160R Disc',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Xtreme 160R Disc',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Xtreme 160R Double Disc',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Xtreme 200S',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Xtreme 200R',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Xtreme 125R',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Xpulse 200T',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Xpulse 200 rally version',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Xpulse 200',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'XPulse 200 4V',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Glamour Disc',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Splendor iSmart',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Passion Pro',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Splendor Plus Drum',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Splendor Plus i3S',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'HF 100',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'HF Deluxe',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Super Splendor',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Karizma XMR',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Hero Achiver',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -144,23 +149,23 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'Hero Pleasure Plus',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Hero Destini 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Hero Xoom 110',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Hero Maestro',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Hero Maestro Edge',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -168,7 +173,7 @@ export const BottomNavData = [
   },
   {
     activeClass: '',
-    titleLink: '/login',
+    titleLink: '/list-page',
     title: 'Honda',
     subMenu: [
       {
@@ -177,47 +182,47 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'Honda Unicorn BS 6',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda Shine',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda CB 200X',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda Hornet',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda SP 160',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda CB 300F',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda CB 350',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda CB 350RS',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda Hness CB350',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda CD 110',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda Livo',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -227,23 +232,23 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'Honda Activa 6G',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda Activa 5G',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda Activa 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda DIO',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Honda DIO 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -251,7 +256,7 @@ export const BottomNavData = [
   },
   {
     activeClass: '',
-    titleLink: '/login',
+    titleLink: '/list-page',
     title: 'TVS',
     subMenu: [
       {
@@ -260,43 +265,43 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'TVS Raider',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Radeon',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Sport',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Ronin',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Apache RR 310',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Apache RTR 310',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Apache RTR 160',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Apache RTR 160 4V',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Apache RTR 200 4V',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Apache RTR 180',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -306,23 +311,23 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'TVS Ntorq',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Jupiter',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Jupiter 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Scooty Zest',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'TVS Scooty Pep Plus',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -330,7 +335,7 @@ export const BottomNavData = [
   },
   {
     activeClass: '',
-    titleLink: '/login',
+    titleLink: '/list-page',
     title: 'Suzuki',
     subMenu: [
       {
@@ -339,31 +344,31 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'Suzuki Hayate',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Suzuki GS 150R',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Suzuki Gixxer SF',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Suzuki Gixxer SF 250',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Suzuki Gixxer',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Suzuki Gixxer 250',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Suzuki V-Strom SX',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -373,15 +378,15 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'Suzuki Access 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Suzuki Burgman Street 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Suzuki Avenis 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -389,7 +394,7 @@ export const BottomNavData = [
   },
   {
     activeClass: '',
-    titleLink: '/login',
+    titleLink: '/list-page',
     title: 'Bajaj',
     subMenu: [
       {
@@ -398,103 +403,103 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'Bajaj Pulsar 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar 150',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar 180',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar 220F',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar RS 200',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar NS 200',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar NS 160',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar NS 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar N150',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar N160',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar N250',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar F250',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar P150',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Pulsar NS400Z',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Platina 100',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Platina 110',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Platina 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj CT 100',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj CT 110',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj CT 125X',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Avenger Street 160',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Avenger Cruise 220',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Avenger Street 220',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Dominar 400',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Bajaj Dominar 250',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -502,7 +507,7 @@ export const BottomNavData = [
   },
   {
     activeClass: '',
-    titleLink: '/login',
+    titleLink: '/list-page',
     title: 'Royal Enfield',
     subMenu: [
       {
@@ -511,59 +516,59 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'Royal Enfield Hunter 350',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Classic 350',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Bullet 350',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Meteor 350',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Thunderbird 350',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Electra 350',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Standard 350',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Himalayan',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Scram 411',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Interceptor 650',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Continental GT 650',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Shotgun 650',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Super Meteor 650',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Royal Enfield Himalayan 450',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -571,7 +576,7 @@ export const BottomNavData = [
   },
   {
     activeClass: '',
-    titleLink: '/login',
+    titleLink: '/list-page',
     title: 'KTM',
     subMenu: [
       {
@@ -580,43 +585,43 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'KTM 125 Duke',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'KTM 200 Duke',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'KTM 250 Duke',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'KTM 390 Duke',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'KTM 250 Adventure',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'KTM 390 Adventure',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'KTM 390 Adventure X',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'KTM RC 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'KTM RC 200',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'KTM RC 390',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -624,7 +629,7 @@ export const BottomNavData = [
   },
   {
     activeClass: '',
-    titleLink: '/login',
+    titleLink: '/list-page',
     title: 'Mahindra',
     subMenu: [
       {
@@ -633,19 +638,19 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'Mahindra Centuro',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Mahindra Gusto 110',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Mahindra Gusto 125',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Mahindra Mojo',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -653,7 +658,7 @@ export const BottomNavData = [
   },
   {
     activeClass: '',
-    titleLink: '/login',
+    titleLink: '/list-page',
     title: 'Yezdi',
     subMenu: [
       {
@@ -662,15 +667,15 @@ export const BottomNavData = [
         Item: [
           {
             itemName: 'Yezdi Roadster',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Yezdi Scrambler',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
           {
             itemName: 'Yezdi Adventure',
-            itemLink: '/login',
+            itemLink: '/list-page',
           },
         ],
       },
@@ -678,7 +683,7 @@ export const BottomNavData = [
   },
   {
     activeClass: 'normal',
-    titleLink: '/login',
+    titleLink: '/list-page',
     title: 'EV',
   },
 ];
@@ -687,43 +692,43 @@ export const BottomNavData = [
 export const BrandIconData = [
   {
     BrandIcon: HeroIcon,
-    link: '/login',
+    link: '/list-page',
   },
   {
     BrandIcon: HondaIcon,
-    link: '/login',
+    link: '/list-page',
   },
   {
     BrandIcon: TvsIcon,
-    link: '/login',
+    link: '/list-page',
   },
   {
     BrandIcon: YamahaIcon,
-    link: '/login',
+    link: '/list-page',
   },
   {
     BrandIcon: SuzukiIcon,
-    link: '/login',
+    link: '/list-page',
   },
   {
     BrandIcon: BajajIcon,
-    link: '/login',
+    link: '/list-page',
   },
   {
     BrandIcon: ReIcon,
-    link: '/login',
+    link: '/list-page',
   },
   {
     BrandIcon: ktmIcon,
-    link: '/login',
+    link: '/list-page',
   },
   {
     BrandIcon: MahindraIcon,
-    link: '/login',
+    link: '/list-page',
   },
   {
     BrandIcon: YezdiIcon,
-    link: '/login',
+    link: '/list-page',
   },
 ];
 // BrandIconData end
@@ -805,3 +810,84 @@ export const CarouselData = [
   },
 ];
 // CarouselData end
+// CarburetorListCardData
+export const CarburetorListCardData = [
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    inStock: true,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    inStock: true,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    inStock: false,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    inStock: false,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    inStock: false,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    inStock: false,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    inStock: false,
+  },
+];
+// CarburetorListCardData end

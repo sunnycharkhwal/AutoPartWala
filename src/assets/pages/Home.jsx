@@ -1,7 +1,10 @@
 import React from 'react';
 import {
+  BorePistonKit,
   BrandsSlider,
   Carburetor,
+  CrankShaft,
+  CustomerReviews,
   Electrical,
   EngineFuel,
   HomePageCarousel,
@@ -22,6 +25,15 @@ export const Home = () => {
       </div>
       <div className="outerDiv">
         <Carburetor />
+      </div>
+      <div className="outerDiv">
+        <CrankShaft />
+      </div>
+      <div className="outerDiv">
+        <BorePistonKit />
+      </div>
+      <div className="outerDiv">
+        <CustomerReviews />
       </div>
       {/* <footer className="bg-body-tertiary text-center">
         <div className="container p-4">

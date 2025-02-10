@@ -3,6 +3,9 @@ import {App} from '../App';
 import {Login} from './auth/Login';
 import {Home} from './pages/Home';
 import {ErrorPage} from './pages/ErrorPage';
+import {ListPage} from './pages/ListPage';
+import {ProductDetails} from './pages/ProductDetails';
+
 export const router = createBrowserRouter([
   {
     path: '',
@@ -12,10 +15,14 @@ export const router = createBrowserRouter([
         path: '',
         Component: Home,
       },
-      // {
-      //   path: '/academy/features',
-      //   Component: Features,
-      // },
+      {
+        path: '/list-page',
+        Component: ListPage,
+      },
+      {
+        path: '/product-details',
+        Component: ProductDetails,
+      },
     ],
   },
   {
