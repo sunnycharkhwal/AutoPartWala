@@ -3,6 +3,22 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .OrderTracking_logo {
+    margin-bottom: 15px;
+    margin-right: 0;
+    img {
+      width: 100%;
+    }
+  }
+  .OrderTracking_div {
+    margin-bottom: 9rem;
+    margin-left: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .OrderTracking_topdiv {
+    flex-direction: column;
+  }
   .WholesalePrices_outer {
     .logo {
       top: 4px;
@@ -63,6 +79,15 @@
   }
 }
 @media (min-width: 768px) {
+  .OrderTracking_logo {
+    margin-bottom: 12rem;
+    margin-right: 0;
+  }
+  .OrderTracking_div {
+    margin-bottom: 12rem;
+    margin-left: 0;
+    margin-right: 1rem;
+  }
   .WholesalePrices_outer {
     .logo {
       top: 12px;
@@ -73,6 +98,15 @@
   }
 }
 @media (min-width: 1024px) {
+  .OrderTracking_logo {
+    margin-bottom: 12rem;
+    margin-right: 4rem;
+  }
+  .OrderTracking_div {
+    margin-bottom: 12rem;
+    margin-left: 4rem;
+    margin-right: 0;
+  }
   .WholesalePrices_outer {
     .logo {
       top: 30px;
@@ -83,6 +117,15 @@
   }
 }
 @media (min-width: 1440px) {
+  .OrderTracking_logo {
+    margin-bottom: 12rem;
+    margin-right: 9rem;
+  }
+  .OrderTracking_div {
+    margin-bottom: 12rem;
+    margin-left: 9rem;
+    margin-right: 0;
+  }
   .MyApp {
     margin-top: 10rem;
   }

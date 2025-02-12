@@ -45,7 +45,7 @@ export const midNev = [
   {title: 'Wholesale prices', link: '/wholesale-prices'},
   {title: 'About us', link: '/'},
   {title: 'Returns & Exchange', link: '/'},
-  {title: 'Order tracking', link: '/'},
+  {title: 'Order tracking', link: '/order-tracking'},
   {title: 'FAQs', link: '/'},
   {title: 'Blogs', link: '/'},
 ];
