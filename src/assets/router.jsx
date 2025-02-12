@@ -5,6 +5,7 @@ import {Home} from './pages/Home';
 import {ErrorPage} from './pages/ErrorPage';
 import {ListPage} from './pages/ListPage';
 import {ProductDetails} from './pages/ProductDetails';
+import {WholesalePrices} from './pages/WholesalePrices';
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
         Component: ProductDetails,
       },
     ],
+  },
+  {
+    path: 'wholesale-prices',
+    Component: WholesalePrices,
   },
   {
     path: 'login',

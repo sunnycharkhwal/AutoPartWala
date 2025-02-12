@@ -3,6 +3,21 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .WholesalePrices_outer {
+    .logo {
+      top: 4px;
+    }
+    .WholesalePrices_inner {
+      width: 100%;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 40px;
+
+      .WholesalePrices_btnDiv {
+        margin-top: 10px;
+      }
+    }
+  }
   .CustomerReviews_div {
     width: 100%;
   }
@@ -48,11 +63,21 @@
   }
 }
 @media (min-width: 768px) {
+  .WholesalePrices_outer {
+    .logo {
+      top: 12px;
+    }
+  }
   .MyApp {
     margin-top: 7rem;
   }
 }
 @media (min-width: 1024px) {
+  .WholesalePrices_outer {
+    .logo {
+      top: 30px;
+    }
+  }
   .MyApp {
     margin-top: 10rem;
   }

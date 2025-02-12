@@ -539,3 +539,83 @@ body {
     line-height: normal;
   }
 }
+// WholesalePrices
+.WholesalePrices_outer {
+  background-color: rgb(0, 186, 219);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  .logo {
+    position: absolute;
+    top: 30px;
+    width: 13rem;
+    height: 2rem;
+  }
+  .WholesalePrices_inner {
+    background-color: white;
+    width: 40rem;
+    border-radius: 6px;
+
+    .WholesalePrices_title {
+      color: rgb(255, 255, 255);
+      font-size: 18px;
+      font-weight: bolder;
+      margin: 0px;
+      text-align: center;
+      padding: 12px;
+      background-color: rgb(30, 45, 125);
+      word-break: break-word;
+      border-color: rgb(21, 111, 137);
+      border-width: 1px;
+      border-style: none;
+    }
+    .WholesalePrices_topDiv {
+      padding: 20px;
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--first-text-color);
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .warning {
+        background-color: rgb(255, 235, 232);
+        padding: 10px;
+        color: rgb(210, 0, 0);
+        font-size: 11px;
+        border: 1px solid rgb(255, 217, 211);
+        opacity: 1;
+        width: 100%;
+        display: inline-block;
+      }
+      .WholesalePrices_inputDiv {
+        display: flex;
+        align-items: center;
+        label {
+          width: 130px;
+          float: left;
+          text-align: left;
+          color: rgb(51, 51, 51);
+          font-size: 12px;
+          text-transform: capitalize;
+        }
+        input {
+          width: 97%;
+        }
+      }
+      .warningBottom {
+        color: rgb(180, 0, 0);
+        font-size: 11px;
+        padding: 10px 10px 10px 0px;
+      }
+      .WholesalePrices_btnDiv {
+        text-align: center;
+        button {
+          background-color: rgb(142, 185, 52);
+        }
+      }
+    }
+  }
+}
