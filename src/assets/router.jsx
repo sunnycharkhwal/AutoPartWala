@@ -7,6 +7,7 @@ import {ListPage} from './pages/ListPage';
 import {ProductDetails} from './pages/ProductDetails';
 import {WholesalePrices} from './pages/WholesalePrices';
 import {OrderTracking} from './pages/OrderTracking';
+import {AboutUs} from './pages/AboutUs';
 
 export const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ export const router = createBrowserRouter([
       {
         path: '/order-tracking',
         Component: OrderTracking,
+      },
+      {
+        path: '/about-us',
+        Component: AboutUs,
       },
     ],
   },

@@ -3,6 +3,14 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .aboutus_infoOuter {
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .AboutUs_text {
+    padding: 0 15px;
+  }
   .OrderTracking_logo {
     margin-bottom: 15px;
     margin-right: 0;
@@ -79,6 +87,9 @@
   }
 }
 @media (min-width: 768px) {
+  .AboutUs_text {
+    padding: 0 10rem;
+  }
   .OrderTracking_logo {
     margin-bottom: 12rem;
     margin-right: 0;
@@ -98,6 +109,9 @@
   }
 }
 @media (min-width: 1024px) {
+  .AboutUs_text {
+    padding: 0 15rem;
+  }
   .OrderTracking_logo {
     margin-bottom: 12rem;
     margin-right: 4rem;
@@ -117,6 +131,9 @@
   }
 }
 @media (min-width: 1440px) {
+  .AboutUs_text {
+    padding: 0 25rem;
+  }
   .OrderTracking_logo {
     margin-bottom: 12rem;
     margin-right: 9rem;

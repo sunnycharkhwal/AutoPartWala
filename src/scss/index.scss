@@ -668,3 +668,50 @@ body {
     }
   }
 }
+// AboutUs
+.AboutUs_text {
+  color: #1e2d7d;
+  padding: 0 25rem;
+
+  h1 {
+    text-align: center;
+    color: #1e2d7d;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+    color: #1e2d7d;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+}
+.aboutus_infoOuter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutus_info {
+  display: flex;
+  align-items: center;
+  img {
+    @include bg_img;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 10px;
+  }
+  p {
+    color: #1e2d7d;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  span {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
