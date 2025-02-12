@@ -3,6 +3,10 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .aboutus_info_div {
+    padding: 1rem 0;
+    margin-top: 1rem;
+  }
   .aboutus_infoOuter {
     justify-content: flex-start;
     margin-left: 15px;
