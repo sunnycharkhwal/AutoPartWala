@@ -478,3 +478,64 @@ body {
     }
   }
 }
+.CustomerReviews_div {
+  width: 319px !important;
+  padding: 26px 12px;
+  border-radius: 6px;
+  background: #f6f8fa;
+  text-align: center;
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    li {
+      svg {
+        font-size: 18px;
+        color: #ffd700;
+        margin-right: 5px;
+      }
+    }
+  }
+  p {
+    color: var(--first-text-color);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  h3 {
+    color: var(--first-text-color);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  img {
+    @include bg_img;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+  }
+  .dateText {
+    color: var(--second-text-colo);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

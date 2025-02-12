@@ -3,6 +3,9 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .CustomerReviews_div {
+    width: 100%;
+  }
   .HomePageCarousel_div {
     .slideImg {
       height: 24rem;
@@ -23,8 +26,8 @@
     margin-top: 9rem;
   }
   .NavLogo {
-    width: 125px;
-    height: 20px;
+    width: 125px !important;
+    height: 20px !important;
   }
   .NavSearch_div {
     margin-left: 10px;

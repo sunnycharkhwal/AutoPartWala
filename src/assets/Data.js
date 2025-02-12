@@ -821,6 +821,7 @@ export const CarburetorListCardData = [
     regularPrice: '3,290.00',
     offPrice: '690.00',
     reviews: 8,
+    starsShow: 3,
     inStock: true,
   },
   {
@@ -832,6 +833,7 @@ export const CarburetorListCardData = [
     regularPrice: '3,290.00',
     offPrice: '690.00',
     reviews: 8,
+    starsShow: 5,
     inStock: true,
   },
   {
@@ -843,6 +845,7 @@ export const CarburetorListCardData = [
     regularPrice: '3,290.00',
     offPrice: '690.00',
     reviews: 8,
+    starsShow: 2,
     inStock: false,
   },
   {
@@ -854,6 +857,7 @@ export const CarburetorListCardData = [
     regularPrice: '3,290.00',
     offPrice: '690.00',
     reviews: 8,
+    starsShow: 5,
     inStock: false,
   },
   {
@@ -865,6 +869,7 @@ export const CarburetorListCardData = [
     regularPrice: '3,290.00',
     offPrice: '690.00',
     reviews: 8,
+    starsShow: 1,
     inStock: false,
   },
   {
@@ -876,6 +881,7 @@ export const CarburetorListCardData = [
     regularPrice: '3,290.00',
     offPrice: '690.00',
     reviews: 8,
+    starsShow: 5,
     inStock: false,
   },
   {
@@ -887,6 +893,7 @@ export const CarburetorListCardData = [
     regularPrice: '3,290.00',
     offPrice: '690.00',
     reviews: 8,
+    starsShow: 5,
     inStock: false,
   },
 ];
