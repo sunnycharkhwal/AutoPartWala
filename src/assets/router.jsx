@@ -8,6 +8,7 @@ import {ProductDetails} from './pages/ProductDetails';
 import {WholesalePrices} from './pages/WholesalePrices';
 import {OrderTracking} from './pages/OrderTracking';
 import {AboutUs} from './pages/AboutUs';
+import {ReturnPrime} from './pages/ReturnPrime';
 
 export const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
       {
         path: '/about-us',
         Component: AboutUs,
+      },
+      {
+        path: '/return-prime',
+        Component: ReturnPrime,
       },
     ],
   },

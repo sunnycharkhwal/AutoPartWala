@@ -720,3 +720,29 @@ body {
   padding: 3rem 0;
   margin-top: 2rem;
 }
+// ReturnPrime
+.ReturnPrime_div {
+  .OrderTracking_div {
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0 30rem;
+    margin-top: 3rem;
+  }
+  .OrderTracking_btnDiv {
+    button {
+      height: 46px;
+    }
+  }
+  .ReturnPrime_titlediv {
+    text-align: center;
+    margin-bottom: 2rem;
+    h3 {
+      font-size: 25px;
+      font-weight: 700;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}

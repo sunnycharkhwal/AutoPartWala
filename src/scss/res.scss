@@ -3,6 +3,12 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .ReturnPrime_div {
+    .OrderTracking_div {
+      padding: 0 15px;
+      margin-top: 3rem;
+    }
+  }
   .aboutus_info_div {
     padding: 1rem 0;
     margin-top: 1rem;
@@ -91,6 +97,12 @@
   }
 }
 @media (min-width: 768px) {
+  .ReturnPrime_div {
+    .OrderTracking_div {
+      padding: 0 10rem;
+      margin-top: 3rem;
+    }
+  }
   .AboutUs_text {
     padding: 0 10rem;
   }
@@ -113,6 +125,12 @@
   }
 }
 @media (min-width: 1024px) {
+  .ReturnPrime_div {
+    .OrderTracking_div {
+      padding: 0 15rem;
+      margin-top: 3rem;
+    }
+  }
   .AboutUs_text {
     padding: 0 15rem;
   }
@@ -135,6 +153,12 @@
   }
 }
 @media (min-width: 1440px) {
+  .ReturnPrime_div {
+    .OrderTracking_div {
+      padding: 0 30rem;
+      margin-top: 3rem;
+    }
+  }
   .AboutUs_text {
     padding: 0 25rem;
   }

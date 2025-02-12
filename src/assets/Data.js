@@ -44,7 +44,7 @@ export const TopNavBarMessage =
 export const midNev = [
   {title: 'Wholesale prices', link: '/wholesale-prices'},
   {title: 'About us', link: '/about-us'},
-  {title: 'Returns & Exchange', link: '/'},
+  {title: 'Returns & Exchange', link: '/return-prime'},
   {title: 'Order tracking', link: '/order-tracking'},
   {title: 'FAQs', link: '/'},
   {title: 'Blogs', link: '/'},
