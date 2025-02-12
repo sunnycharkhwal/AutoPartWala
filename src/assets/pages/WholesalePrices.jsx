@@ -110,8 +110,9 @@ export const WholesalePrices = () => {
           </div>
         </form>
       ) : (
-        <div className="WholesalePrices_inner">
-          THANK YOU! eAuto Team will call you with Wholesale Pricing
+        <div className="WholesalePrices_inner THANKYOU ">
+          THANK YOU! <br />
+          eAuto Team will call you with Wholesale Pricing
         </div>
       )}
     </div>

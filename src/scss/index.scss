@@ -547,6 +547,16 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  .THANKYOU {
+    padding: 20px;
+    border-radius: 6px;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    color: rgb(30, 45, 125);
+    font-size: 22px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+  }
   .logo {
     position: absolute;
     top: 30px;
