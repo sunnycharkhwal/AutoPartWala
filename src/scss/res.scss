@@ -3,6 +3,22 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .LoginTop_inner {
+    padding: 20px;
+    margin: 0 15px;
+    .LoginTop_link {
+      margin-top: 15px;
+      font-size: 12px;
+      text-align: center;
+    }
+    .LoginTop_btn2 {
+      button {
+        img {
+          left: 10px;
+        }
+      }
+    }
+  }
   .ReturnPrime_div {
     .OrderTracking_div {
       padding: 0 15px;

@@ -746,3 +746,83 @@ body {
     }
   }
 }
+// login
+.LoginTop_inner {
+  padding: 40px 100px;
+  background-color: white;
+  border-radius: 6px;
+  .LoginTop_text {
+    margin-bottom: 20px;
+    h3 {
+      color: var(--first-text-color);
+      text-align: center;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 6px;
+    }
+    p {
+      color: #b0a6bd;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .LoginTop_input {
+    input {
+      margin-bottom: 20px;
+    }
+  }
+  .LoginTop_btn {
+    button {
+      border-radius: 4px;
+      background: #9747ff;
+      width: 100%;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      text-transform: capitalize;
+    }
+  }
+  .LoginTop_btn2 {
+    margin-top: 20px;
+    button {
+      color: #697586;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: capitalize;
+      height: 44px;
+      border-radius: 4px;
+      width: 100%;
+      position: relative;
+      img {
+        width: 24px;
+        height: 24px;
+        @include bg_img;
+        position: absolute;
+        left: 15px;
+      }
+    }
+  }
+  .LoginTop_link {
+    margin-top: 20px;
+    color: #697586;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    a {
+      color: #697586;
+    }
+  }
+}
