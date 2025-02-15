@@ -18,7 +18,7 @@ export const ReturnPrime = () => {
               <input
                 type="text"
                 id="EmailPhone"
-                class="form-control"
+                className="form-control"
                 aria-describedby="passwordHelpBlock"
                 placeholder="Order number"
                 required
@@ -29,7 +29,7 @@ export const ReturnPrime = () => {
               <input
                 type="text"
                 id="Order"
-                class="form-control"
+                className="form-control"
                 placeholder="Phone or Email"
                 aria-describedby="passwordHelpBlock"
                 required

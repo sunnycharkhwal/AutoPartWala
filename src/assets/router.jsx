@@ -1,5 +1,8 @@
 import {createBrowserRouter} from 'react-router';
 import {App} from '../App';
+import {Login} from './auth/Login';
+import {RecoverPassword} from './auth/RecoverPassword';
+import {Register} from './auth/Register';
 import {Home} from './pages/Home';
 import {ErrorPage} from './pages/ErrorPage';
 import {ListPage} from './pages/ListPage';
@@ -8,9 +11,7 @@ import {WholesalePrices} from './pages/WholesalePrices';
 import {OrderTracking} from './pages/OrderTracking';
 import {AboutUs} from './pages/AboutUs';
 import {ReturnPrime} from './pages/ReturnPrime';
-import {Login} from './auth/Login';
-import {RecoverPassword} from './auth/RecoverPassword';
-import {Register} from './auth/Register';
+import {Blogs} from './pages/Blogs';
 
 export const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ export const router = createBrowserRouter([
       {
         path: '/return-prime',
         Component: ReturnPrime,
+      },
+      {
+        path: '/blogs',
+        Component: Blogs,
       },
     ],
   },

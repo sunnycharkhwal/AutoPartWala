@@ -47,7 +47,7 @@ export const midNev = [
   {title: 'Returns & Exchange', link: '/return-prime'},
   {title: 'Order tracking', link: '/order-tracking'},
   {title: 'FAQs', link: '/'},
-  {title: 'Blogs', link: '/'},
+  {title: 'Blogs', link: '/blogs'},
 ];
 // midNev end
 // BottomNavData
