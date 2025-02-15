@@ -747,10 +747,16 @@ body {
   }
 }
 // login
+.LoginTop_innerNew {
+  height: 40rem;
+  overflow: scroll;
+}
 .LoginTop_inner {
   padding: 40px 100px;
   background-color: white;
   border-radius: 6px;
+  width: 40rem;
+  text-align: center;
   .LoginTop_text {
     margin-bottom: 20px;
     h3 {
@@ -772,7 +778,8 @@ body {
     }
   }
   .LoginTop_input {
-    input {
+    position: relative;
+    .MuiFormControl-root {
       margin-bottom: 20px;
     }
   }

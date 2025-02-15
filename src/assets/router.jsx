@@ -1,6 +1,5 @@
 import {createBrowserRouter} from 'react-router';
 import {App} from '../App';
-import {Login} from './auth/Login';
 import {Home} from './pages/Home';
 import {ErrorPage} from './pages/ErrorPage';
 import {ListPage} from './pages/ListPage';
@@ -9,6 +8,9 @@ import {WholesalePrices} from './pages/WholesalePrices';
 import {OrderTracking} from './pages/OrderTracking';
 import {AboutUs} from './pages/AboutUs';
 import {ReturnPrime} from './pages/ReturnPrime';
+import {Login} from './auth/Login';
+import {RecoverPassword} from './auth/RecoverPassword';
+import {Register} from './auth/Register';
 
 export const router = createBrowserRouter([
   {
@@ -48,6 +50,14 @@ export const router = createBrowserRouter([
   {
     path: 'login',
     Component: Login,
+  },
+  {
+    path: 'recover-password',
+    Component: RecoverPassword,
+  },
+  {
+    path: 'register',
+    Component: Register,
   },
   {
     path: '*',
