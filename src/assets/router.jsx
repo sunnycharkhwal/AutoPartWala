@@ -13,6 +13,7 @@ import {AboutUs} from './pages/AboutUs';
 import {ReturnPrime} from './pages/ReturnPrime';
 import {Blogs} from './pages/Blogs';
 import {BlogDetails} from './pages/BlogDetails';
+import {Faq} from './pages/Faq';
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ export const router = createBrowserRouter([
       {
         path: '/blog-details',
         Component: BlogDetails,
+      },
+      {
+        path: '/faq',
+        Component: Faq,
       },
     ],
   },
