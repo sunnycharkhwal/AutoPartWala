@@ -3,6 +3,21 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .BlogDetailsTop {
+    .BlogDetails_text {
+      padding: 0 15px;
+      padding-top: 15px;
+      img {
+        width: 100%;
+        height: 20rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .outerDiv {
+    padding: 15px 15px;
+  }
   .LoginTop_inner {
     padding: 20px;
     margin: 0 15px;
@@ -113,6 +128,12 @@
   }
 }
 @media (min-width: 768px) {
+  .BlogDetailsTop {
+    .BlogDetails_text {
+      padding: 0 100px;
+      padding-top: 20px;
+    }
+  }
   .ReturnPrime_div {
     .OrderTracking_div {
       padding: 0 10rem;
@@ -141,6 +162,12 @@
   }
 }
 @media (min-width: 1024px) {
+  .BlogDetailsTop {
+    .BlogDetails_text {
+      padding: 0 150px;
+      padding-top: 20px;
+    }
+  }
   .ReturnPrime_div {
     .OrderTracking_div {
       padding: 0 15rem;

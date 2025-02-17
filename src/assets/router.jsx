@@ -12,6 +12,7 @@ import {OrderTracking} from './pages/OrderTracking';
 import {AboutUs} from './pages/AboutUs';
 import {ReturnPrime} from './pages/ReturnPrime';
 import {Blogs} from './pages/Blogs';
+import {BlogDetails} from './pages/BlogDetails';
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
       {
         path: '/blogs',
         Component: Blogs,
+      },
+      {
+        path: '/blog-details',
+        Component: BlogDetails,
       },
     ],
   },

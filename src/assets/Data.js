@@ -898,3 +898,42 @@ export const CarburetorListCardData = [
   },
 ];
 // CarburetorListCardData end
+// BlogsData
+export const BlogsData = [
+  {
+    title: ' Helmet Buying Guide',
+    date: 'May 04, 2021',
+    blogImg:
+      'https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+  },
+  {
+    title: ' Helmet Buying Guide',
+    date: 'May 04, 2021',
+    blogImg:
+      'https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+  },
+  {
+    title: ' Helmet Buying Guide',
+    date: 'May 04, 2021',
+    blogImg:
+      'https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+  },
+  {
+    title: ' Helmet Buying Guide',
+    date: 'May 04, 2021',
+    blogImg:
+      'https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+  },
+  {
+    title: ' Helmet Buying Guide',
+    date: 'May 04, 2021',
+    blogImg:
+      'https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg',
+    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+  },
+];
+// BlogsData end
