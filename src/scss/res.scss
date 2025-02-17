@@ -3,6 +3,9 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .FaqDiv {
+    padding: 0 12px;
+  }
   .BlogDetailsTop {
     .BlogDetails_text {
       padding: 0 15px;
@@ -128,6 +131,9 @@
   }
 }
 @media (min-width: 768px) {
+  .FaqDiv {
+    padding: 0 50px;
+  }
   .BlogDetailsTop {
     .BlogDetails_text {
       padding: 0 100px;
@@ -162,6 +168,9 @@
   }
 }
 @media (min-width: 1024px) {
+  .FaqDiv {
+    padding: 0 200px;
+  }
   .BlogDetailsTop {
     .BlogDetails_text {
       padding: 0 150px;

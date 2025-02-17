@@ -933,3 +933,18 @@ body {
     color: var(--first-text-color);
   }
 }
+.FaqDiv {
+  padding: 0 200px;
+  padding-top: 30px;
+  .FaqDiv_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--first-text-color);
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .MuiTypography-root {
+    font-weight: 700;
+  }
+}

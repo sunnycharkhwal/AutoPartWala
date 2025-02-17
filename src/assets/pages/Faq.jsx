@@ -12,13 +12,17 @@ export const Faq = () => {
       <div className="FaqTitle">
         <h3>FAQs (Frequently Asked Questions)</h3>
       </div>
-      <div>
+
+      <div className="FaqDiv">
+        <div className="FaqDiv_title">Shipping & Delivery</div>
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1-content"
             id="panel1-header">
-            <Typography component="span">Accordion 1</Typography>
+            <Typography component="span">
+              What courier service do you use?
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -28,9 +32,11 @@ export const Faq = () => {
         <Accordion>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2-content"
+            aria-controls="panel12-content"
             id="panel2-header">
-            <Typography component="span">Accordion 2</Typography>
+            <Typography component="span">
+              What courier service do you use?
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse

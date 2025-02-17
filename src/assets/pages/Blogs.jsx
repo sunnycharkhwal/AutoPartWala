@@ -9,7 +9,9 @@ export const Blogs = () => {
       <div className="outerDiv">
         <div className="row g-2">
           {BlogsData.map((val, i) => (
-            <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
+            <div
+              key={i}
+              className="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
               <div
                 className="BlogCard"
                 onClick={() => navigate('/blog-details')}>
