@@ -95,7 +95,7 @@ export const DrawerAppBar = ({window}) => {
                   <FaRegUser />
                 </span>
               </BootstrapTooltip>
-              <BootstrapTooltip title="Cart" onClick={() => navigate('/login')}>
+              <BootstrapTooltip title="Cart" onClick={() => navigate('/cart')}>
                 <div className="NavLoginBtn_div">
                   <span className="NavLoginBtn">
                     <Badge

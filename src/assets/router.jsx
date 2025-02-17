@@ -14,6 +14,7 @@ import {ReturnPrime} from './pages/ReturnPrime';
 import {Blogs} from './pages/Blogs';
 import {BlogDetails} from './pages/BlogDetails';
 import {Faq} from './pages/Faq';
+import {Cart} from './pages/Cart';
 
 export const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ export const router = createBrowserRouter([
       {
         path: '/faq',
         Component: Faq,
+      },
+      {
+        path: '/cart',
+        Component: Cart,
       },
     ],
   },
