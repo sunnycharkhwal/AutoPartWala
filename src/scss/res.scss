@@ -3,8 +3,11 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .FaqDiv_Inner {
+    padding: 15px 15px;
+  }
   .FaqDiv {
-    padding: 0 12px;
+    padding: 0 15px;
   }
   .BlogDetailsTop {
     .BlogDetails_text {
@@ -169,7 +172,7 @@
 }
 @media (min-width: 1024px) {
   .FaqDiv {
-    padding: 0 200px;
+    padding: 0 120px;
   }
   .BlogDetailsTop {
     .BlogDetails_text {

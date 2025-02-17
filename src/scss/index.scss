@@ -933,15 +933,21 @@ body {
     color: var(--first-text-color);
   }
 }
+.FaqDiv_Inner {
+  background-color: var(--bgColor2);
+  padding: 30px 30px;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
 .FaqDiv {
-  padding: 0 200px;
+  padding: 0 120px;
   padding-top: 30px;
+
   .FaqDiv_title {
     font-size: 18px;
     font-weight: 600;
     color: var(--first-text-color);
     margin-bottom: 2rem;
-    margin-top: 2rem;
     text-align: center;
   }
   .MuiTypography-root {

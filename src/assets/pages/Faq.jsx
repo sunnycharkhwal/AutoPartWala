@@ -16,37 +16,74 @@ export const Faq = () => {
         </div>
 
         <div className="FaqDiv">
-          <div className="FaqDiv_title">Shipping & Delivery</div>
-          <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel1-content"
-              id="panel1-header">
-              <Typography component="span">
-                What courier service do you use?
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
-            </AccordionDetails>
-          </Accordion>
-          <Accordion>
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel12-content"
-              id="panel2-header">
-              <Typography component="span">
-                What courier service do you use?
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
-            </AccordionDetails>
-          </Accordion>
+          <div className="FaqDiv_Inner">
+            <div className="FaqDiv_title">Shipping & Delivery</div>
+            <Accordion>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1-content"
+                id="panel1-header">
+                <Typography component="span">
+                  What courier service do you use?
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+                eget.
+              </AccordionDetails>
+            </Accordion>
+            <Accordion>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel12-content"
+                id="panel2-header">
+                <Typography component="span">
+                  What courier service do you use?
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+                eget.
+              </AccordionDetails>
+            </Accordion>
+          </div>
+        </div>
+        <div className="FaqDiv">
+          <div className="FaqDiv_Inner">
+            <div className="FaqDiv_title">Shipping & Delivery</div>
+            <Accordion>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel1-content"
+                id="panel1-header">
+                <Typography component="span">
+                  What courier service do you use?
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+                eget.
+              </AccordionDetails>
+            </Accordion>
+            <Accordion>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon />}
+                aria-controls="panel12-content"
+                id="panel2-header">
+                <Typography component="span">
+                  What courier service do you use?
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
+                eget.
+              </AccordionDetails>
+            </Accordion>
+          </div>
         </div>
       </div>
       <UpperFooter />
