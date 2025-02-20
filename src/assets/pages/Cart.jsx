@@ -1,5 +1,9 @@
 import React from 'react';
 
 export const Cart = () => {
-  return <div className="outerDiv">Cart</div>;
+  return (
+    <>
+      <h1>fjn</h1>
+    </>
+  );
 };

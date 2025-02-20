@@ -937,3 +937,122 @@ export const BlogsData = [
   },
 ];
 // BlogsData end
+// ListPageData
+export const ListPageData = [
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    starsShow: 3,
+    inStock: true,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    starsShow: 5,
+    inStock: true,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    starsShow: 2,
+    inStock: false,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    starsShow: 5,
+    inStock: false,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    starsShow: 1,
+    inStock: false,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    starsShow: 5,
+    inStock: false,
+  },
+  {
+    normalImg: ListImg,
+    hoverImg: ListImgHover,
+    title: 'Bajaj Original Bike Carburetor for Bajaj Boxer BM 150',
+    brand: 'Bajaj OE',
+    salePrice: '2,601.00',
+    regularPrice: '3,290.00',
+    offPrice: '690.00',
+    reviews: 8,
+    starsShow: 5,
+    inStock: false,
+  },
+];
+//  ListPageData end
+// FiltersData
+export const FiltersData = [
+  {
+    categoryName: 'Category',
+    FilterOptionData: [
+      {
+        FilterOption: 'Body Control Uni',
+      },
+    ],
+  },
+  {
+    categoryName: 'SparesBrand',
+    FilterOptionData: [
+      {
+        FilterOption: 'UNO MINDA',
+      },
+    ],
+  },
+  {
+    categoryName: 'VehicleModel',
+    FilterOptionData: [
+      {
+        FilterOption: 'Pulsar',
+      },
+      {
+        FilterOption: 'Pulsar 150',
+      },
+    ],
+  },
+];
+// FiltersData

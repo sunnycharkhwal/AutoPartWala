@@ -3,6 +3,10 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .ListPage_divFilters {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
   .FaqDiv_Inner {
     padding: 15px 15px;
   }

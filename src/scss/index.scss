@@ -16,6 +16,7 @@
 }
 body {
   font-family: 'Poppins';
+  background-color: #f2f5f6 !important;
 }
 .barsIconMob {
   padding-left: 10px;
@@ -383,6 +384,101 @@ body {
   }
 }
 // ListCard
+.ListCard_div2 {
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid var(--border_color);
+  position: relative;
+  .salePrice {
+    background: #ee0000;
+    position: absolute;
+    color: #ffffff;
+    padding: 2px 5px;
+    /* border-radius: 3px; */
+    font-size: 14px;
+    font-weight: bolder;
+    top: 2%;
+    left: 0;
+  }
+  img {
+    @include bg_img;
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+    border-bottom: 1px solid var(--border_color);
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .ListCard_price {
+    span {
+      color: #ee0000;
+      font-size: 19px;
+      margin-right: 8px;
+      font-weight: 500;
+    }
+    del {
+      color: #1e2d7d;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+  .ListCard_divInner {
+    padding: 5px;
+    .titleA {
+      color: #1e2d7d;
+      font-size: 12px;
+      font-weight: bolder;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        text-decoration: none;
+        color: #00badb;
+      }
+    }
+    .titleB {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      a {
+        color: #1e2d7d8c;
+        font-size: 12px;
+        font-weight: 400;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+          text-decoration: none;
+          color: #00badb;
+        }
+      }
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      li {
+        margin-right: 3px;
+        font-size: 18px;
+        color: #ffd700;
+      }
+      .inner_text {
+        font-size: 12px;
+        color: #1e2d7d;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+    }
+    .status {
+      color: #008a00;
+      display: flex;
+      align-items: center;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+  }
+}
 .ListCard_div {
   width: 221px !important;
   border-radius: 6px;
@@ -952,5 +1048,75 @@ body {
   }
   .MuiTypography-root {
     font-weight: 700;
+  }
+}
+// ListPage
+.ListPage_div {
+  background-color: #fff;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+}
+.ListPage_divFilters {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: -16px;
+  h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--first-text-color);
+    line-height: normal;
+    margin-bottom: 1rem;
+  }
+  .ListPage_Accordion {
+    .MuiPaper-root {
+      box-shadow: none !important;
+      margin-bottom: 10px;
+      border: none !important;
+    }
+    .MuiButtonBase-root {
+      padding: 0;
+      min-height: 20px !important;
+      border-radius: 0 !important;
+      border: none !important;
+    }
+    .MuiTypography-root {
+      font-weight: 700;
+    }
+    .MuiAccordionSummary-content {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .ListPage_AccordionLabel {
+      .MuiFormControlLabel-label {
+        margin-left: 5px;
+      }
+      label {
+        font-weight: 400 !important;
+        color: var(--second-text-color);
+        margin-bottom: 5px;
+        .MuiTypography-root {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
+.ListPage_AccordionInner {
+  display: flex;
+  flex-direction: column;
+}
+.listPageBtn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  .OutofStock {
+    cursor: no-drop;
+    background-color: #8a9297;
+  }
+  button {
+    width: 100%;
+    text-transform: capitalize;
   }
 }
