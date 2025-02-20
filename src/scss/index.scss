@@ -278,7 +278,7 @@ body {
 .BrandsIcon_div {
   width: 118px !important;
   height: 118px !important;
-  background: var(--bgColor_2);
+  background: #fff;
   display: flex !important;
   justify-content: center;
   align-items: center;
@@ -503,7 +503,7 @@ body {
     border-bottom: 1px solid var(--border_color);
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    padding: 10px;
+    // padding: 10px;
     cursor: pointer;
   }
   .ListCard_price {
@@ -521,6 +521,7 @@ body {
   }
   .ListCard_divInner {
     padding: 5px;
+    background-color: #fff;
     .titleA {
       color: #1e2d7d;
       font-size: 12px;
@@ -578,7 +579,7 @@ body {
   width: 319px !important;
   padding: 26px 12px;
   border-radius: 6px;
-  background: #f6f8fa;
+  background: #fff;
   text-align: center;
   ul {
     display: flex;
@@ -812,7 +813,7 @@ body {
   }
 }
 .aboutus_info_div {
-  background-color: #f4f5f6;
+  background-color: #fff;
   padding: 3rem 0;
   margin-top: 2rem;
 }
@@ -1004,20 +1005,22 @@ body {
       }
     }
   }
-  .BlogDetails_text {
-    padding: 0 150px;
-    padding-top: 20px;
-    p {
-      font-size: 14px;
-      font-weight: 500;
-      color: var(--second-text-color);
-    }
-    img {
-      width: 60%;
-      height: 40rem;
-      @include bg_img;
-      margin: auto;
-    }
+}
+.BlogDetails_text {
+  padding: 0 150px;
+  padding-top: 20px;
+  p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--second-text-color);
+  }
+  img {
+    width: 60%;
+    height: 40rem;
+    @include bg_img;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 // Faq
@@ -1118,5 +1121,93 @@ body {
   button {
     width: 100%;
     text-transform: capitalize;
+  }
+}
+// footer
+.footerDiv {
+  background-color: #414145;
+  padding: 30px 30px;
+
+  .footerDiv_text {
+    img {
+      @include bg_img;
+      width: 2rem;
+      height: 2rem;
+      width: 180px;
+      height: 36px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+  .footerDiv_link {
+    h5 {
+      text-transform: capitalize;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 5px;
+    }
+    ul {
+      li {
+        margin-bottom: 5px;
+        a {
+          text-transform: capitalize;
+          font-size: 14px;
+          font-weight: 500;
+          color: #fff;
+          transition: all 0.3s;
+          &:hover {
+            text-decoration: none;
+            color: #00badb;
+          }
+        }
+      }
+    }
+    .footerDiv_follow {
+      margin-top: 10px;
+      display: flex;
+      a {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 100%;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        svg {
+          color: var(--first-text-color);
+          font-size: 20px;
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover {
+          background-color: var(--first-text-color);
+          svg {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.footerDiv_bottom {
+  background-color: var(--bgColor);
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  a {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5px;
   }
 }

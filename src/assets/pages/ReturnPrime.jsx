@@ -1,5 +1,6 @@
 import React from 'react';
 import {UpperFooter} from '../component/UpperFooter';
+import {MyFooter} from '../component/Footer';
 import {Button} from '@mui/material';
 export const ReturnPrime = () => {
   return (
@@ -45,6 +46,7 @@ export const ReturnPrime = () => {
         </div>
       </div>
       <UpperFooter />
+      <MyFooter />
     </>
   );
 };

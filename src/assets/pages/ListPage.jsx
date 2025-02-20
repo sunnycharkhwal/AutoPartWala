@@ -14,6 +14,7 @@ import {
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import {styled} from '@mui/material/styles';
+import {MyFooter} from '../component/Footer';
 
 export const ListPage = () => {
   const navigate = useNavigate();
@@ -116,6 +117,7 @@ export const ListPage = () => {
           </div>
         </div>
       </div>
+      <MyFooter />
     </>
   );
 };

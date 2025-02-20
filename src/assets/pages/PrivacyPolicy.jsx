@@ -1,11 +1,12 @@
 import React from 'react';
 import {UpperFooter} from '../component/UpperFooter';
 import {MyFooter} from '../component/Footer';
-export const AboutUs = () => {
+
+export const PrivacyPolicy = () => {
   return (
     <>
       <div className="AboutUs_text">
-        <h1>About Us</h1>
+        <h1>Privacy Policy</h1>
         <h3>Welcome to eAuto</h3>
         <h4>Your online store for auto parts, accessories and services</h4>
         <p>

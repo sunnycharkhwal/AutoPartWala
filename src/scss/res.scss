@@ -3,6 +3,13 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .footerDiv_text {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .footerDiv_link {
+    margin-bottom: 1rem;
+  }
   .ListPage_divFilters {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -13,18 +20,18 @@
   .FaqDiv {
     padding: 0 15px;
   }
-  .BlogDetailsTop {
-    .BlogDetails_text {
-      padding: 0 15px;
-      padding-top: 15px;
-      img {
-        width: 100%;
-        height: 20rem;
-        margin-top: 10px;
-        margin-bottom: 10px;
-      }
+
+  .BlogDetails_text {
+    padding: 0 15px;
+    padding-top: 15px;
+    img {
+      width: 100%;
+      height: 20rem;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
   }
+
   .outerDiv {
     padding: 15px 15px;
   }
@@ -141,12 +148,12 @@
   .FaqDiv {
     padding: 0 50px;
   }
-  .BlogDetailsTop {
-    .BlogDetails_text {
-      padding: 0 100px;
-      padding-top: 20px;
-    }
+
+  .BlogDetails_text {
+    padding: 0 100px;
+    padding-top: 20px;
   }
+
   .ReturnPrime_div {
     .OrderTracking_div {
       padding: 0 10rem;
@@ -178,12 +185,12 @@
   .FaqDiv {
     padding: 0 120px;
   }
-  .BlogDetailsTop {
-    .BlogDetails_text {
-      padding: 0 150px;
-      padding-top: 20px;
-    }
+
+  .BlogDetails_text {
+    padding: 0 150px;
+    padding-top: 20px;
   }
+
   .ReturnPrime_div {
     .OrderTracking_div {
       padding: 0 15rem;

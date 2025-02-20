@@ -1,6 +1,8 @@
 import React from 'react';
 import {useNavigate} from 'react-router';
 import {BlogsData} from '../Data';
+import {MyFooter} from '../component/Footer';
+
 export const Blogs = () => {
   const navigate = useNavigate();
 
@@ -36,6 +38,7 @@ export const Blogs = () => {
           ))}
         </div>
       </div>
+      <MyFooter />
     </>
   );
 };

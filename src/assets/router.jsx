@@ -15,6 +15,8 @@ import {Blogs} from './pages/Blogs';
 import {BlogDetails} from './pages/BlogDetails';
 import {Faq} from './pages/Faq';
 import {Cart} from './pages/Cart';
+import {PrivacyPolicy} from './pages/PrivacyPolicy';
+import {ContactUs} from './pages/ContactUs';
 
 export const router = createBrowserRouter([
   {
@@ -60,6 +62,14 @@ export const router = createBrowserRouter([
       {
         path: '/cart',
         Component: Cart,
+      },
+      {
+        path: '/privacy-policy',
+        Component: PrivacyPolicy,
+      },
+      {
+        path: '/contact-us',
+        Component: ContactUs,
       },
     ],
   },

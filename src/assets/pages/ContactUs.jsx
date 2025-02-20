@@ -1,10 +1,10 @@
 import React from 'react';
 import {MyFooter} from '../component/Footer';
 
-export const Cart = () => {
+export const ContactUs = () => {
   return (
     <>
-      <h1>fjn</h1>
+      <div>ContactUs</div>
       <MyFooter />
     </>
   );

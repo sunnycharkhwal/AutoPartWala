@@ -1,20 +1,24 @@
 import React from 'react';
 import BD from '../../images/bd.webp';
+import {MyFooter} from '../component/Footer';
+
 export const BlogDetails = () => {
   return (
-    <div>
-      <div className="BlogDetailsTop">
-        <img
-          src="https://thumbs.dreamstime.com/b/blogging-blog-concepts-ideas-worktable-blogging-blog-concepts-ideas-white-worktable-110423482.jpg"
-          alt="img"
-        />
-        <div className="BlogDetails_title">
-          <div className="BlogDetails_titleInner">
-            <span>May 04, 2021</span>
-            <h3>Helmet Buying Guide</h3>
+    <>
+      <div className=" position-relative">
+        <div className="BlogDetailsTop">
+          <img
+            src="https://thumbs.dreamstime.com/b/blogging-blog-concepts-ideas-worktable-blogging-blog-concepts-ideas-white-worktable-110423482.jpg"
+            alt="img"
+          />
+          <div className="BlogDetails_title">
+            <div className="BlogDetails_titleInner">
+              <span>May 04, 2021</span>
+              <h3>Helmet Buying Guide</h3>
+            </div>
           </div>
         </div>
-        <div className="BlogDetails_text">
+        <div className="BlogDetails_text mb-4">
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi,
             consectetur rerum vero, saepe dignissimos magni adipisci delectus
@@ -110,6 +114,7 @@ export const BlogDetails = () => {
           </p>
         </div>
       </div>
-    </div>
+      <MyFooter />
+    </>
   );
 };

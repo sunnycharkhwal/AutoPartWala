@@ -793,19 +793,19 @@ export const CarouselData = [
   {
     desktopImg: Slide1,
     mobileImg: SlideMobile1,
-    ImgLink: '/',
+    ImgLink: '/list-page',
     activeClass: '',
   },
   {
     desktopImg: Slide2,
     mobileImg: SlideMobile2,
-    ImgLink: '/',
+    ImgLink: '/list-page',
     activeClass: '',
   },
   {
     desktopImg: Slide3,
     mobileImg: SlideMobile3,
-    ImgLink: '/',
+    ImgLink: '/list-page',
     activeClass: 'normal',
   },
 ];
