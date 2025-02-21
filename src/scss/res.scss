@@ -3,6 +3,11 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .ContactUs_div {
+    form {
+      padding: 0 15px;
+    }
+  }
   .footerDiv_text {
     margin-bottom: 2rem;
     text-align: center;
@@ -145,6 +150,11 @@
   }
 }
 @media (min-width: 768px) {
+  .ContactUs_div {
+    form {
+      padding: 0 50px;
+    }
+  }
   .FaqDiv {
     padding: 0 50px;
   }
@@ -182,6 +192,11 @@
   }
 }
 @media (min-width: 1024px) {
+  .ContactUs_div {
+    form {
+      padding: 0 200px;
+    }
+  }
   .FaqDiv {
     padding: 0 120px;
   }
@@ -219,6 +234,11 @@
   }
 }
 @media (min-width: 1440px) {
+  .ContactUs_div {
+    form {
+      padding: 0 250px;
+    }
+  }
   .ReturnPrime_div {
     .OrderTracking_div {
       padding: 0 30rem;
