@@ -112,7 +112,8 @@ export const Cart = () => {
                   <div className="mytext  text-end">-Rs. 25.00</div>
                 </div>
               </div>
-              <div>
+              <p>You saved Rs. 1,312.00</p>
+              <div className="CartPriceRighi_Accordion">
                 <Accordion
                   expanded={expanded}
                   onChange={() => setExpanded(!expanded)}>
@@ -120,26 +121,25 @@ export const Cart = () => {
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1-content"
                     id="panel1-header">
-                    <Typography component="span">Accordion 1</Typography>
+                    <Typography component="span">Order instructions</Typography>
                   </AccordionSummary>
                   <AccordionDetails>
-                    <Typography>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Suspendisse malesuada lacus ex, sit amet blandit leo
-                      lobortis eget.
-                    </Typography>
+                    <textarea
+                      className="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"></textarea>
                     <Button
                       variant="contained"
                       color="secondary"
                       size="small"
                       onClick={handleClose}
-                      sx={{marginTop: 1}}>
-                      Close
+                      className="CartPriceRighi_AccordionBtn">
+                      Save
                     </Button>
                   </AccordionDetails>
                 </Accordion>
               </div>
-              <p>You saved Rs. 1,312.00</p>
+
               <div className="bottomText">
                 Tax included. <NavLink to="/privacy-policy">Shipping</NavLink>{' '}
                 calculated at checkout

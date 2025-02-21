@@ -1363,6 +1363,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     color: #008a00;
+    margin-bottom: 1rem;
   }
   .bottomText {
     font-size: 11px;
@@ -1397,5 +1398,22 @@ body {
       font-size: 16px;
       margin-bottom: 2px;
     }
+  }
+}
+.CartPriceRighi_Accordion {
+  border-top: 1px solid var(--second-text-color);
+  border-bottom: 1px solid var(--second-text-color);
+  .MuiTypography-root {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .MuiPaper-root {
+    box-shadow: none;
+  }
+  .CartPriceRighi_AccordionBtn {
+    color: #fff !important;
+    background: #1e2d7d !important;
+    text-transform: capitalize;
+    margin-top: 10px;
   }
 }
