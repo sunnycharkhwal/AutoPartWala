@@ -3,6 +3,12 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .CartDivTopTitle {
+    display: none;
+  }
+  .CartDiv {
+    margin-bottom: 1rem;
+  }
   .ContactUs_div {
     form {
       padding: 0 15px;

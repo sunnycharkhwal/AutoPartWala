@@ -1056,3 +1056,39 @@ export const FiltersData = [
   },
 ];
 // FiltersData
+// cart ProductData
+export const ProductData = [
+  {
+    productImg: EF1,
+    catg: 'PRICOL',
+    title: 'PRICOL Digital Speedometer for Bajaj Avenger 150 Street',
+    highlightPrice: '2,850.00',
+    comparePrice: '3,727.00',
+    totalPrice: '2,850.00',
+  },
+  {
+    productImg: EF2,
+    catg: 'PRICOL',
+    title: 'PRICOL Digital Speedometer for Bajaj Avenger 150 Street',
+    highlightPrice: '2,850.00',
+    comparePrice: '3,727.00',
+    totalPrice: '2,850.00',
+  },
+  {
+    productImg: EF1,
+    catg: 'PRICOL',
+    title: 'PRICOL Digital Speedometer for Bajaj Avenger 150 Street',
+    highlightPrice: '2,850.00',
+    comparePrice: '3,727.00',
+    totalPrice: '2,850.00',
+  },
+  {
+    productImg: EF2,
+    catg: 'PRICOL',
+    title: 'PRICOL Digital Speedometer for Bajaj Avenger 150 Street',
+    highlightPrice: '2,850.00',
+    comparePrice: '3,727.00',
+    totalPrice: '2,850.00',
+  },
+];
+// cart ProductData
