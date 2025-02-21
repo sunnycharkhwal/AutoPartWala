@@ -14,7 +14,7 @@ import {
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import {FcLock} from 'react-icons/fc';
 export const Cart = () => {
-  const [expanded, setExpanded] = useState(true);
+  const [expanded, setExpanded] = useState(false);
 
   const handleToggle = () => {
     setExpanded(prev => !prev);
@@ -114,9 +114,7 @@ export const Cart = () => {
               </div>
               <p>You saved Rs. 1,312.00</p>
               <div className="CartPriceRighi_Accordion">
-                <Accordion
-                  expanded={expanded}
-                  onChange={() => setExpanded(!expanded)}>
+                <Accordion expanded={expanded} onChange={handleToggle}>
                   <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1-content"
