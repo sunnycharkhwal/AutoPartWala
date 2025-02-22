@@ -3,6 +3,13 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .magnifier-container {
+    .zoom-container {
+      .zoomed-image {
+        display: none;
+      }
+    }
+  }
   .CartDivTopTitle {
     display: none;
   }

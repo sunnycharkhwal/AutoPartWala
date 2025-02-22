@@ -25,7 +25,7 @@ export const ProductDetails = () => {
   return (
     <div className="outerDiv">
       <div className="row">
-        <div className="col-6 ">
+        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
           <div className="row g-3">
             <div className="col-12 ProductDetails_DivTop">
               <div className="ProductDetails_DivTopInner">
@@ -84,6 +84,9 @@ export const ProductDetails = () => {
                   )}
                 </div>
               </div>
+            </div>
+            <div className="col-12 d-block d-xxl-none d-xl-none d-lg-none ProductDetails_textDivTop">
+              <PayDiv />
             </div>
             <div className="col-12 ProductDetails_textDivTop">
               <div className="ProductDetails_textDiv">
@@ -144,15 +147,24 @@ export const ProductDetails = () => {
             </div>
             <div className="col-12 ProductDetails_textDivTop">
               <div className="ProductDetails_textDiv">
-                <h1>Returns Policy</h1>
+                <h1>Shipping & Delivery</h1>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-6">
-          <div>jbhv</div>
+        <div className="col-6 d-none d-xxl-block d-xl-block d-lg-block ">
+          <PayDiv />
         </div>
       </div>
     </div>
+  );
+};
+const PayDiv = () => {
+  return (
+    <>
+      <div>
+        <h1>PayDiv</h1>
+      </div>
+    </>
   );
 };
