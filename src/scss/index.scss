@@ -1486,7 +1486,7 @@ body {
 }
 .ProductDetails_textDivTop {
   background-color: #fff;
-  padding: 10px;
+  padding: 15px;
   border-radius: 6px;
   .ProductDetails_textDiv {
     h1 {
@@ -1494,7 +1494,52 @@ body {
       line-height: normal;
       text-transform: capitalize;
       font-weight: 600;
-      color: var(colorBlue);
+      color: var(--colorBlue);
+      margin-bottom: 1rem;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: normal;
+      text-transform: capitalize;
+      font-weight: 500;
+      color: var(--colorBlue);
+      margin-bottom: 15px;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        position: relative;
+        margin-left: 15px;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--colorBlue);
+        margin-bottom: 10px;
+        &::before {
+          position: absolute;
+          content: '';
+          left: -14px;
+          top: 6px;
+          height: 5px;
+          width: 5px;
+          border-radius: 100%;
+          background-color: #1e2d7da3;
+        }
+      }
+    }
+    .ProductDetails_tabel {
+      table {
+        tbody {
+          tr {
+            border-top: 1px solid;
+            border-color: #e1e3e4 !important;
+            td {
+              font-size: 14px;
+              color: var(--colorBlue);
+            }
+          }
+        }
+      }
     }
   }
 }

@@ -94,7 +94,57 @@ export const ProductDetails = () => {
                     Superior lock set that keeps your bike safe bringing you
                     peace of mind
                   </li>
+                  <li>
+                    Superior lock set that keeps your bike safe bringing you
+                    peace of mind
+                  </li>
                 </ul>
+                <h3>Product Information</h3>
+                <div className="ProductDetails_tabel">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <strong> Brand</strong>
+                        </td>
+                        <td>Spark MINDA</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <strong> Compatible Vehicle</strong>
+                        </td>
+                        <td> Bajaj Pulsar 150CC 2 Pin</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <strong> Compatible Vehicle</strong>
+                        </td>
+                        <td> Bajaj Pulsar 150CC 2 Pin</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <strong> Compatible Vehicle</strong>
+                        </td>
+                        <td> Bajaj Pulsar 150CC 2 Pin</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 ProductDetails_textDivTop">
+              <div className="ProductDetails_textDiv">
+                <h1>Your budget-friendly bike insurance!</h1>
+              </div>
+            </div>
+            <div className="col-12 ProductDetails_textDivTop">
+              <div className="ProductDetails_textDiv">
+                <h1>Shipping & Delivery</h1>
+              </div>
+            </div>
+            <div className="col-12 ProductDetails_textDivTop">
+              <div className="ProductDetails_textDiv">
+                <h1>Returns Policy</h1>
               </div>
             </div>
           </div>
