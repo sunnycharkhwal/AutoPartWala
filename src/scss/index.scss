@@ -1418,7 +1418,6 @@ body {
   }
 }
 //
-
 .magnifier-container {
   display: flex;
   align-items: center;
@@ -1489,6 +1488,11 @@ body {
   padding: 15px;
   border-radius: 6px;
   .ProductDetails_textDiv {
+    img {
+      @include bg_img;
+      width: 20rem;
+      height: 20rem;
+    }
     h1 {
       font-size: 24px;
       line-height: normal;
@@ -1539,6 +1543,189 @@ body {
             }
           }
         }
+      }
+    }
+  }
+}
+.ProductDetails_PayDiv {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 6px;
+  h1 {
+    font-size: 34px;
+    line-height: normal;
+    font-weight: 600;
+    color: var(--colorBlue);
+  }
+  .subTitle {
+    font-size: 14px;
+    color: #00badb;
+    font-weight: 400;
+  }
+  .CustomerReviews_div {
+    width: 100% !important;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    ul {
+      justify-content: flex-start;
+      .inner_text {
+        margin-top: 3px;
+      }
+    }
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 550;
+    color: var(--colorBlue);
+    text-transform: capitalize;
+  }
+  .ProductDetails_Compatibility {
+    display: flex;
+    p {
+      border: 1px solid var(--colorBlue);
+      margin-bottom: 0;
+      margin-top: 0;
+      font-size: 14px;
+      font-weight: 400;
+      padding: 5px 10px;
+      border-radius: 6px;
+      margin-right: 10px;
+      text-transform: capitalize;
+      color: var(--colorBlue);
+    }
+  }
+  .footerDiv_follow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border-bottom: 1px solid var(--second-text-color);
+    padding-bottom: 20px;
+    a {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #c7d5dd;
+      border-radius: 100%;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      svg {
+        color: #fff;
+        font-size: 20px;
+        transition: all 0.3s ease-in-out;
+      }
+      &:hover {
+        background-color: var(--first-text-color);
+        svg {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .ProductDetails_priceDiv {
+    display: flex;
+    align-items: center;
+    .ProductDetails_priceTitle {
+      font-size: 16px;
+      font-weight: 550;
+      color: var(--colorBlue);
+      margin: 0;
+      margin-right: 25px;
+    }
+    .ProductDetails_price {
+      font-size: 20px;
+      font-weight: 400;
+      color: #00badb;
+      margin: 0;
+    }
+    .ProductDetails_price2 {
+      position: relative;
+      color: #008a00;
+      font-size: 14px;
+      font-weight: 550;
+      margin: 0;
+      padding-left: 17px;
+      &::before {
+        position: absolute;
+        display: inline-block;
+        content: '';
+        width: 8px;
+        height: 8px;
+        left: 0;
+        top: 0.45em;
+        border-radius: 100%;
+        background: #008a00;
+      }
+    }
+  }
+  .cardQuantity {
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .cardQuantity_Inner {
+      width: auto;
+    }
+    h4 {
+      border-left: 1px solid var(--second-text-color);
+      border-right: 1px solid var(--second-text-color);
+      padding: 0 15px;
+      margin-top: 0;
+    }
+    .button1 {
+      padding-left: 10px;
+    }
+    .button2 {
+      padding-right: 10px;
+    }
+  }
+  .bottom_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .bottom_btn1 {
+      padding: 0 30px;
+      line-height: 48px;
+      border-radius: 2px;
+      text-align: center;
+      margin-right: 10px;
+      font-size: 16px;
+      font-weight: 550;
+      text-transform: capitalize;
+      background-color: #00badb;
+      width: 100%;
+    }
+    .bottom_btn2 {
+      padding: 0 30px;
+      line-height: 48px;
+      border-radius: 2px;
+      text-align: center;
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: 550;
+      text-transform: capitalize;
+      background-color: var(--colorBlue);
+      width: 100%;
+    }
+  }
+  .ProductDetails_Availability {
+    margin-top: 20px;
+    h3 {
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--colorBlue);
+      margin-bottom: 10px;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      button {
+        margin-left: 10px;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 550;
       }
     }
   }

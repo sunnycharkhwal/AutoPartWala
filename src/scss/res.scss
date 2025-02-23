@@ -3,6 +3,25 @@
 @use 'var.scss';
 @use 'mixing.scss';
 @media (max-width: 576px) {
+  .ProductDetails_PayDiv {
+    padding: 0px;
+    h1 {
+      font-size: 28px;
+    }
+  }
+
+  .ProductDetails_PayDiv {
+    .bottom_btn {
+      flex-direction: column;
+      .bottom_btn1 {
+        margin: 0;
+        margin-bottom: 1rem;
+      }
+      .bottom_btn2 {
+        margin: 0;
+      }
+    }
+  }
   .magnifier-container {
     .zoom-container {
       .zoomed-image {
@@ -163,6 +182,9 @@
   }
 }
 @media (min-width: 768px) {
+  .ProductDetails_PayDiv {
+    padding: 0px;
+  }
   .ContactUs_div {
     form {
       padding: 0 50px;
@@ -205,6 +227,9 @@
   }
 }
 @media (min-width: 1024px) {
+  .ProductDetails_PayDiv {
+    padding: 25px;
+  }
   .ContactUs_div {
     form {
       padding: 0 200px;
@@ -247,6 +272,9 @@
   }
 }
 @media (min-width: 1440px) {
+  .ProductDetails_PayDiv {
+    padding: 25px;
+  }
   .ContactUs_div {
     form {
       padding: 0 250px;
